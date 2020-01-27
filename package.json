@@ -1,19 +1,19 @@
 {
-  "name": "project-name",
+  "name": "sneakers-shop",
   "version": "1.0.0",
   "description": "",
   "main": "stylelint.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlfredoElizarraras/project-name.git"
+    "url": "git+https://github.com/AlfredoElizarraras/sneakers-shop.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlfredoElizarraras/project-name/issues"
+    "url": "https://github.com/AlfredoElizarraras/sneakers-shop/issues"
   },
-  "homepage": "https://github.com/AlfredoElizarraras/project-name#readme",
+  "homepage": "https://github.com/AlfredoElizarraras/sneakers-shop#readme",
   "devDependencies": {
     "stylelint": "^12.0.0",
     "stylelint-config-recommended": "^3.0.0"

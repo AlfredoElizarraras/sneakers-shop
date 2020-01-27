@@ -1,7 +1,7 @@
 
 ---
 
-# Project Name
+# Sneakers shop
 
 > This project is completed by Oscar Alfredo Gómez Elizarrarás, in partial requirements of the Microverse cirriculum. 
 
@@ -19,7 +19,6 @@ url of the demo
 
 - HTML5
 - CSS3
-- Bootstrap 4
 - Node
 
 ---
@@ -37,7 +36,7 @@ If there are dependencies
 
 ### Install
 
-`git clone https://github.com/AlfredoElizarraras/project-name.git`
+`git clone https://github.com/AlfredoElizarraras/sneakers-shop.git`
 
 `npm install`
 
@@ -55,7 +54,7 @@ If there are dependencies
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AlfredoElizarraras/project-name/issues).
+Feel free to check the [issues page](https://github.com/AlfredoElizarraras/sneakers-shop/issues).
 
 ## Show your support
 
@@ -65,6 +64,7 @@ Give a ⭐️ if you like this project!
 
 - [Microverse](https://microverse.org)
 - [Odin project](https://www.theodinproject.com/)
+- [Dima Oxigen](https://www.behance.net/gallery/80392909/AXEL-ARIGATO-Website)
 
 ---
 
