@@ -1,15 +1,141 @@
 /* #region base */
+body {
+  color: #313131;
+  background-color: #f5f5f5;
+  font-family: "Arimo", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #b9b9b9;
+}
+
+li {
+  list-style: none;
+}
 
 /* #endregion base */
 
 /* #region layout */
 
+/* #region header */
+header,
+nav {
+  width: 100%;
+  min-width: 200px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1rem;
+}
+
+.nav__title {
+  font-size: medium;
+  font-weight: bold;
+  color: #313131;
+}
+
+/* #endregion header */
+
 /* #endregion layout */
 
 /* #region modules */
-
+.none {
+  display: none;
+}
 /* #endregion modules */
 
 /* #region media queries */
+@media only screen and (min-width: 768px) and (max-width: 1024) {
+  /* #region base */
+
+  /* #endregion base */
+
+  /* #region layout */
+
+  /* #region header */
+
+  /* #endregion header */
+
+  /* #endregion layout */
+
+  /* #region modules */
+
+  /* #endregion modules */
+}
+
+@media only screen and (min-width: 1024px) {
+  /* #region base */
+
+  /* #endregion base */
+
+  /* #region layout */
+
+  /* #region header */
+  header,
+  nav {
+    height: 100%;
+    max-width: 200px;
+  }
+
+  .nav__top {
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+  }
+
+  .nav__categories li {
+    margin-bottom: 20px;
+  }
+
+  .nav__menu {
+    display: flex;
+  }
+
+  .nav__bars-icon {
+    margin-right: 10px;
+  }
+
+  .nav__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .nav__social li {
+    margin-top: 10px;
+  }
+
+  /* #endregion header */
+
+  /* #endregion layout */
+
+  /* #region modules */
+  .dt-block {
+    display: block;
+  }
+  /* #endregion modules */
+}
 
 /* #endregion media queries */
