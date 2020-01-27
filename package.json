@@ -1,0 +1,21 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stylelint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfredoElizarraras/project-name.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlfredoElizarraras/project-name/issues"
+  },
+  "homepage": "https://github.com/AlfredoElizarraras/project-name#readme",
+  "devDependencies": {
+    "stylelint": "^12.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
