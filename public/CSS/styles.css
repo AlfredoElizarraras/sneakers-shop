@@ -1,7 +1,7 @@
 /* #region base */
 body {
   color: #313131;
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: "Arimo", sans-serif;
   height: 100vh;
   width: 100vw;
@@ -127,7 +127,7 @@ nav {
 
 .article {
   background-color: #f5f5f5;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
   min-width: 150px;
 }
 
@@ -154,11 +154,11 @@ nav {
 }
 
 .border-top {
-  border-top: 3px solid #ffffff !important;
+  border-top: 3px solid #fff !important;
 }
 
 .border-right {
-  border-right: 3px solid #ffffff !important;
+  border-right: 3px solid #fff !important;
 }
 
 .no-padding {
@@ -170,8 +170,8 @@ nav {
 }
 
 /* I take this class from:
-https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link 
-It hiddes elements but allows screen readers to see it, so I can use articles instead of div, but as some articles didn't have visible header it's a bad practice to use articles without a h2-h6 tag (html validator)*/
+https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link
+It hiddes elements but allows screen readers to see it, so I can use articles instead of div, but as some articles didn't have visible header it's a bad practice to use articles without a h2-h6 tag (html validator) */
 .screen-reader {
   border: 0;
   clip: rect(0 0 0 0);
@@ -199,6 +199,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   nav {
     margin-bottom: 0;
   }
+
   /* #endregion header */
 
   /* #region main */
@@ -222,6 +223,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   .main__right-title {
     font-size: 1.2rem;
   }
+
   /* #endregion main */
 
   /* #endregion layout */
@@ -331,12 +333,14 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   .main__right-title {
     font-size: 1.2rem;
   }
+
   /* #endregion index */
 
   /* #region product */
   .image--small-80 {
     max-width: 80%;
   }
+
   /* #endregion product */
 
   /* #endregion main */
@@ -355,6 +359,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
     /* margin-right: 18px; */
   }
 
@@ -375,7 +380,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   }
 
   .nav__cart {
-    color: #ffffff;
+    color: #fff;
     background-color: gray;
   }
 
@@ -384,6 +389,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     justify-content: flex-end;
     align-items: flex-end;
     flex-grow: 1;
+
     /* margin-right: 18px; */
   }
 
@@ -392,6 +398,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     transform-origin: right;
     padding-right: 1.5rem;
   }
+
   /* #endregion footer */
 
   /* #endregion layout */
