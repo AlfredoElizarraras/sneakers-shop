@@ -336,13 +336,6 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   /* #endregion index */
 
-  /* #region product */
-  .image--small-80 {
-    max-width: 80%;
-  }
-
-  /* #endregion product */
-
   /* #endregion main */
 
   /* #region footer */
