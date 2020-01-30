@@ -69,7 +69,7 @@ nav {
 /* #region main */
 
 /* #region index */
-main {
+.main {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -304,11 +304,11 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   /* #endregion header */
 
   /* #region main */
-  main {
+  .main {
     flex-direction: row;
   }
 
-  main > * {
+  .main > * {
     flex: 50%;
   }
 
