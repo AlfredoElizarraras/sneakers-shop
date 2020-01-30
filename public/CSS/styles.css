@@ -165,6 +165,10 @@ main {
   padding: 0;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 /* I take this class from:
 https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link 
 It hiddes elements but allows screen readers to see it, so I can use articles instead of div, but as some articles didn't have visible header it's a bad practice to use articles without a h2-h6 tag (html validator)*/
@@ -399,6 +403,15 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   .dt-absolute {
     position: absolute;
   }
+
+  .dt-flex-basis-0 {
+    flex-basis: 0;
+  }
+
+  .dt-max-width-100 {
+    max-width: 100%;
+  }
+
   /* #endregion modules */
 }
 
