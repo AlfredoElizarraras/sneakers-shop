@@ -74,8 +74,8 @@ Give a ⭐️ if you like this project!
 - The owner of this cool idea of website is:
 - [Dima Oxigen](https://www.behance.net/gallery/80392909/AXEL-ARIGATO-Website)
 - I take Images from: 
-  - Photo by [Satria](https://unsplash.com/@satriaaditya04) Aditya on Unsplash
-  - Photo by [Paul](https://unsplash.com/@laup) Volkmer on Unsplash
+  - Photo by [Satria Aditya](https://unsplash.com/@satriaaditya04) on Unsplash
+  - Photo by [Paul Volkmer](https://unsplash.com/@laup) on Unsplash
   - Photo by [Melvin Buezo](https://www.pexels.com/@melvin-buezo-1253763) from Pexels
   - Photo by [Mstudio](https://www.pexels.com/@mstudio-360817) from Pexels
   - Photo by [Mnz](https://www.pexels.com/@mnzoutfits) from Pexels
