@@ -111,23 +111,34 @@
             <div class="col-lg-8 order-1 order-lg-2 no-padding">
               <article class="d-flex flex-column article">
                 <h3 class="screen-reader">Sneaker image</h3>
-                <div class="py-3 d-flex justify-content-end">
+                <div class="py-3 py-lg-1 d-flex justify-content-end">
                   <span class="pr-3">30111</span>
                 </div>
-                <a href="category.html" class="p-5"
+                <a href="category.html" class="p-5 p-lg-3 d-flex justify-content-center"
                   ><img
                     src="images/category/sneakers.jpg"
                     alt="Photo by Melvin Buezo from Pexels"
+                    class="image--small-80"
                 /></a>
                 <div
-                  class="d-flex justify-content-center align-items-center py-3"
+                  class="d-flex justify-content-center align-items-center py-3 py-lg-1"
                 >
-                  <span class=" article__info">04 / 05</span>
+                  <span class=" article__info flex-lg-grow-1 d-lg-flex justify-content-lg-end mx-5">04 / 05</span>
+                  <div
+                    class="d-none d-lg-flex justify-content-between"
+                  >
+                    <a href="javascript:void(0);" class="mx-5">Prev</a>
+                    <a href="javascript:void(0);" class="mx-5">Next</a>
+                  </div>
                 </div>
               </article>
             </div>
-            <div class="d-flex flex-column col-lg-4 order-2 order-lg-1 no-padding">
-              <article class="d-flex article justify-content-between align-items-center">
+            <div
+              class="d-flex flex-column col-lg-4 order-2 order-lg-1 no-padding"
+            >
+              <article
+                class="d-flex article justify-content-between align-items-center"
+              >
                 <h3 class="screen-reader">Sneaker model and price</h3>
                 <div class="py-3 d-flex flex-column pl-3">
                   <span class="article__info uppercase mb-2">Tech Runner</span>
@@ -141,7 +152,9 @@
                   <span class=" article__info">380 USD</span>
                 </div>
               </article>
-              <article class="d-flex article justify-content-between align-items-center py-4 py-lg-1">
+              <article
+                class="d-flex article justify-content-between align-items-center py-4 py-lg-1"
+              >
                 <h3 class="screen-reader">Sneaker sizes</h3>
                 <a href="javascript:void(0);"
                   ><span class="light-text pl-3">40</span></a
@@ -165,9 +178,7 @@
                   ><span class="light-text pr-3">46</span></a
                 >
               </article>
-              <article
-                class="d-flex flex-column article flex-lg-grow-1"
-              >
+              <article class="d-flex flex-column article flex-lg-grow-1">
                 <h3 class="screen-reader">Sneaker model and price</h3>
                 <div class="py-3 d-flex flex-column pl-3">
                   <span class="article__info article__info--small uppercase"
@@ -235,9 +246,9 @@
               </a>
             </li>
           </ul>
-          <div class="footer__bottom">
-            <span class="footer__text">scroll down</span>
-          </div>
+          <ul class=" footer__list">
+            <li><a href="category.html">Back to Catalogue</a></li>
+          </ul>
         </nav>
       </footer>
       <!-- #endregion footer -->

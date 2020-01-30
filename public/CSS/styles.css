@@ -173,15 +173,15 @@ nav {
 https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link 
 It hiddes elements but allows screen readers to see it, so I can use articles instead of div, but as some articles didn't have visible header it's a bad practice to use articles without a h2-h6 tag (html validator)*/
 .screen-reader {
-	border: 0;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 /* #endregion modules */
@@ -304,6 +304,8 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   /* #endregion header */
 
   /* #region main */
+
+  /* #region index */
   .main {
     flex-direction: row;
   }
@@ -329,6 +331,13 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   .main__right-title {
     font-size: 1.2rem;
   }
+  /* #endregion index */
+
+  /* #region product */
+  .image--small-80 {
+    max-width: 80%;
+  }
+  /* #endregion product */
 
   /* #endregion main */
 
