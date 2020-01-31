@@ -40,8 +40,8 @@ img {
 
 /* #region header */
 header {
-  max-height: 10vh;
-  height: 10vh;
+  /* max-height: 10vh; */
+  height: auto;
 }
 
 header,
@@ -195,9 +195,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 /* #endregion modules */
 
 /* #region media queries */
-@media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* #region base */
   /* #endregion base */
 
@@ -207,6 +205,7 @@ and (max-device-width: 1024px) {
   header,
   nav {
     margin-bottom: 0;
+    height: 10vh;
   }
 
   /* #endregion header */
@@ -252,8 +251,15 @@ and (max-device-width: 1024px) {
   /* #endregion modules */
 }
 
-@media only screen 
-and (min-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  header,
+  nav {
+    margin-bottom: 0;
+    height: 5vh;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
   /* #region base */
 
   /* #endregion base */
@@ -265,7 +271,8 @@ and (min-width: 1024px) {
   }
 
   /* #region header */
-  header,footer {
+  header,
+  footer {
     width: 20vw;
     max-height: 100vh;
   }
