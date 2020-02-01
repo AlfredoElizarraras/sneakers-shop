@@ -1,0 +1,446 @@
+/* #region base */
+body {
+  color: #313131;
+  background-color: #fff;
+  font-family: "Arimo", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+a:hover {
+  color: #b9b9b9;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* #endregion base */
+
+/* #region layout */
+
+.outside-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+}
+
+/* #region header */
+header {
+  /* max-height: 10vh; */
+  height: auto;
+}
+
+header,
+nav {
+  width: 100%;
+  min-width: 10vh;
+  margin-bottom: 5px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1rem;
+}
+
+.nav__title {
+  font-size: medium;
+  font-weight: bold;
+  color: #313131;
+}
+
+/* #endregion header */
+
+/* #region main */
+
+/* #region index */
+.main {
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+}
+
+.main__left {
+  border-right: 3px solid #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__main-image {
+  max-height: 70vh;
+}
+
+.main__right-top {
+  border-bottom: 3px solid #f5f5f5;
+}
+
+.main__bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem 0 2rem 1.5rem;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  height: 20vh;
+}
+
+.main__right-title {
+  font-size: 0.975rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+/* #endregion index */
+
+/* #region category */
+.category__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* #endregion category */
+
+/* #endregion main */
+
+/* #endregion layout */
+
+/* #region modules */
+.none {
+  display: none;
+}
+
+.article {
+  background-color: #f5f5f5;
+  border: 1px solid #fff;
+  min-width: 150px;
+  max-height: 70vh;
+}
+
+.article__info {
+  font-size: 0.985rem;
+  font-weight: bold;
+}
+
+.article__info--small {
+  font-size: small;
+}
+
+.article__summary {
+  font-size: 0.775rem;
+  color: #b9b9b9;
+}
+
+.light-text {
+  color: #d4d4d4;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.border-top {
+  border-top: 3px solid #fff !important;
+}
+
+.border-right {
+  border-right: 3px solid #fff !important;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+/* I take this class from:
+https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link
+It hiddes elements but allows screen readers to see it, so I can use articles instead of div, but as some articles didn't have visible header it's a bad practice to use articles without a h2-h6 tag (html validator) */
+.screen-reader {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* #endregion modules */
+
+/* #region media queries */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* #region base */
+  /* #endregion base */
+
+  /* #region layout */
+
+  /* #region header */
+  header,
+  nav {
+    margin-bottom: 0;
+    height: 10vh;
+  }
+
+  /* #endregion header */
+
+  /* #region main */
+  .main__main-image {
+    max-height: 90vh;
+  }
+
+  .main__bottom {
+    bottom: 0;
+    right: 0;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+    height: 30vh;
+  }
+
+  .main__right-title {
+    font-size: 1.2rem;
+  }
+
+  /* #endregion main */
+
+  /* #endregion layout */
+
+  /* #region modules */
+  .md-block {
+    display: block;
+  }
+
+  .md-none {
+    display: none;
+  }
+
+  .md-absolute {
+    position: absolute;
+  }
+
+  .md-relative {
+    position: relative;
+  }
+
+  /* #endregion modules */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  header,
+  nav {
+    margin-bottom: 0;
+    height: 5vh;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* #region base */
+
+  /* #endregion base */
+
+  /* #region layout */
+
+  .outside-container {
+    flex-direction: row;
+  }
+
+  /* #region header */
+  header,
+  footer {
+    width: 20vw;
+    max-height: 100vh;
+  }
+
+  header,
+  nav {
+    height: 100%;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+  }
+
+  .nav__top {
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+  }
+
+  .nav__categories li {
+    margin-bottom: 20px;
+  }
+
+  .nav__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav__bars-icon {
+    margin-right: 10px;
+  }
+
+  .nav__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .nav__social li {
+    margin-top: 10px;
+  }
+
+  /* #endregion header */
+
+  /* #region main */
+
+  /* #region index */
+  .main {
+    flex-direction: row;
+    width: 80vw;
+    max-height: 100vh;
+  }
+
+  .main > * {
+    flex: 50%;
+  }
+
+  .main__right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__right > * {
+    flex: 50%;
+  }
+
+  .main__bottom {
+    padding-top: 0;
+    padding-bottom: 0;
+    max-height: 50vh;
+  }
+
+  .main__right-title {
+    font-size: 1.5rem;
+  }
+
+  .main__main-image {
+    max-height: 100vh;
+  }
+
+  /* #endregion index */
+
+  /* #endregion main */
+
+  /* #region footer */
+  footer {
+    min-width: 10vh;
+    font-size: 1.2rem;
+  }
+
+  .footer__nav {
+    padding-right: 2rem;
+  }
+
+  .footer__list {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .footer__list--dash-space {
+    margin-left: 1rem;
+  }
+
+  .nav__circle-item {
+    display: block;
+    color: #313131;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px 0 10px 10px;
+  }
+
+  .nav__cart {
+    color: #fff;
+    background-color: gray;
+  }
+
+  .footer__bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 1;
+
+    /* margin-right: 18px; */
+  }
+
+  .footer__text {
+    transform: rotate(90deg);
+    transform-origin: right;
+    padding-right: 1.5rem;
+  }
+
+  /* #endregion footer */
+
+  /* #endregion layout */
+
+  /* #region modules */
+  .dt-block {
+    display: block;
+  }
+
+  .dt-none {
+    display: none;
+  }
+
+  .dt-relative {
+    position: relative;
+  }
+
+  .dt-absolute {
+    position: absolute;
+  }
+
+  .dt-flex-basis-0 {
+    flex-basis: 0;
+  }
+
+  .dt-max-width-100 {
+    max-width: 100%;
+  }
+
+  /* #endregion modules */
+}
+
+/* #endregion media queries */
