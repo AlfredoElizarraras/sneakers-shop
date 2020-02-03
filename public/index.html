@@ -4,11 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="CSS/minireset.css" />
     <link rel="stylesheet" href="CSS/styles.css" />
     <link
@@ -21,30 +16,36 @@
     ></script>
     <title>Home</title>
   </head>
-  <body class="flex flex-column jc-between">
+  <body class="flex flex-column jc-between dt-flex-row size-100">
     <!-- #region header -->
-    <header>
-      <nav class="flex">
-        <div class="nav__top flex jc-between">
-          <h1 class=" nav__title"><a href="#">Axel Arigato</a></h1>
-          <ul class="nav__categories none dt-block">
-            <li><a href="javascript:void(0);">Men</a></li>
-            <li><a href="javascript:void(0);">Women</a></li>
+    <header class="dt-flex dt-flex-column height-10 dt-height-100">
+      <nav
+        class="flex dt-flex-column
+               dt-height-100 
+               dt-pl-1r"
+      >
+        <div class="flex jc-between 
+                    dt-flex-column
+                    height-50 width-20">
+          <h1 class="text-bold text-uppercase pt-1r pl-1r"><a href="#">Axel Arigato</a></h1>
+          <ul class="none dt-flex dt-flex-column dt-jc-between">
+            <li class="dt-pb-1r"><a href="javascript:void(0);">Men</a></li>
+            <li class="dt-pb-1r"><a href="javascript:void(0);">Women</a></li>
             <li><a href="javascript:void(0);">Objects</a></li>
           </ul>
           <div>
-            <a href="javascript:void(0);" class=" nav__menu">
+            <a href="javascript:void(0);" class="dt-flex dt-ai-end">
               <span class="fas fa-bars nav__bars-icon"></span>
-              <span class="none dt-block">Menu</span>
+              <span class="none dt-block dt-text-size-12 dt-pl-1r">Menu</span>
             </a>
           </div>
         </div>
-        <div class="nav__bottom none">
+        <div class="nav__bottom none dt-flex dt-ai-end dt-height-50 dt-width-20">
           <ul class="nav__social">
-            <li><a href="javascript:void(0);">Instagram</a></li>
-            <li><a href="javascript:void(0);">Facebook</a></li>
-            <li><a href="javascript:void(0);">Twitter</a></li>
-            <li><a href="javascript:void(0);">Youtube</a></li>
+            <li class="dt-pb-1r"><a href="javascript:void(0);">Instagram</a></li>
+            <li class="dt-pb-1r"><a href="javascript:void(0);">Facebook</a></li>
+            <li class="dt-pb-1r"><a href="javascript:void(0);">Twitter</a></li>
+            <li class="dt-pb-1r"><a href="javascript:void(0);">Youtube</a></li>
           </ul>
         </div>
       </nav>
