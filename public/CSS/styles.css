@@ -38,15 +38,6 @@ img {
 
 /* #endregion index */
 
-/* #region category */
-.category__title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-/* #endregion category */
-
 /* #endregion main */
 
 /* #endregion layout */
@@ -60,6 +51,10 @@ img {
 
 .flex-column {
   flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .jc-start {
@@ -634,6 +629,25 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 /* #endregion container size */
 
 /* #region custome components */
+.article {
+  background-color: #f5f5f5;
+  min-width: 150px;
+  max-height: 70vh;
+}
+
+.article__info {
+  font-size: 0.985rem;
+  font-weight: bold;
+}
+
+.article__info--small {
+  font-size: small;
+}
+
+.article__summary {
+  font-size: 0.775rem;
+  color: #b9b9b9;
+}
 /* #endregion custome components */
 
 /* #endregion modules */
@@ -665,6 +679,10 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .md-flex-column {
     flex-direction: column;
+  }
+
+  .md-flex-row {
+    flex-direction: row;
   }
 
   .md-jc-start {
@@ -1304,12 +1322,12 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     display: flex;
   }
 
-  .dt-flex-row {
-    flex-direction: row;
-  }
-
   .dt-flex-column {
     flex-direction: column;
+  }
+
+  .dt-flex-row {
+    flex-direction: row;
   }
 
   .dt-jc-start {
