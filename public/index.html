@@ -16,19 +16,25 @@
     ></script>
     <title>Home</title>
   </head>
-  <body class="flex flex-column jc-between dt-flex-row size-100">
+  <body class="flex flex-column dt-jc-between dt-flex-row size-100">
     <!-- #region header -->
-    <header class="dt-flex dt-flex-column height-10 dt-height-100">
+    <header class="flex flex-column jc-center height-9
+                   dt-height-100">
       <nav
-        class="flex dt-flex-column
-               dt-height-100 
-               dt-pl-1r"
+        class="flex pb-1r
+               dt-flex-column dt-height-100 dt-pl-1r"
       >
-        <div class="flex jc-between 
+        <div
+          class="flex jc-between 
                     dt-flex-column
                     width-100
-                    dt-height-50 dt-width-20">
-          <h1 class="text-bold text-uppercase pt-1r pl-1r dt-no-padding dt-pt-1r"><a href="#">Axel Arigato</a></h1>
+                    dt-height-50 dt-width-20"
+        >
+          <h1
+            class="text-bold text-uppercase pt-1r pl-1r dt-no-padding dt-pt-1r"
+          >
+            <a href="#">Axel Arigato</a>
+          </h1>
           <ul class="none dt-flex dt-flex-column dt-jc-between">
             <li class="dt-pb-1r"><a href="javascript:void(0);">Men</a></li>
             <li class="dt-pb-1r"><a href="javascript:void(0);">Women</a></li>
@@ -37,13 +43,17 @@
           <div class="pt-1r pr-1r">
             <a href="javascript:void(0);" class="dt-flex dt-ai-end">
               <span class="fas fa-bars nav__bars-icon"></span>
-              <span class="none dt-block dt-text-size-12 dt-pl-1r dt-pt-025r">Menu</span>
+              <span class="none dt-block dt-text-size-12 dt-pl-1r dt-pt-025r"
+                >Menu</span
+              >
             </a>
           </div>
         </div>
         <div class="none dt-flex dt-ai-end dt-height-50 dt-width-20">
-          <ul >
-            <li class="dt-pb-1r"><a href="javascript:void(0);">Instagram</a></li>
+          <ul>
+            <li class="dt-pb-1r">
+              <a href="javascript:void(0);">Instagram</a>
+            </li>
             <li class="dt-pb-1r"><a href="javascript:void(0);">Facebook</a></li>
             <li class="dt-pb-1r"><a href="javascript:void(0);">Twitter</a></li>
             <li class="dt-pb-1r"><a href="javascript:void(0);">Youtube</a></li>
@@ -52,5 +62,96 @@
       </nav>
     </header>
     <!-- #endregion header -->
+
+    <!-- #region main -->
+    <main class="flex height-90
+                 dt-flex-row dt-width-80 dt-height-100">
+      <div class="dt-border-3-white md-relative">
+        <img
+          src="images/home/main-photo.jpg"
+          alt="Photo by Satria Aditya on Unsplash"
+          class="width-100 height-70
+                 md-height-90
+                 dt-width-40
+                 dt-height-98"
+        />
+        <div class="main__bottom flex flex-column jc-between
+                    height-20 pl-2r text-bold
+                    md-absolute md-height-50 md-pr-2r
+                    dt-none">
+          <h2 class="text-size-14 text-bold text-uppercase height-10 pt-1r pb-2r
+                     md-text-size-24">
+            Axel Arigato X Cat<br />
+            collection
+          </h2>
+          <a class="height-10 flex ai-center" href="category.html">Shop now</a>
+        </div>
+      </div>
+      <div class="none dt-flex dt-flex-column dt-width-40 dt-height-98">
+        <div class="dt-border-3-white">
+          <img
+            src="images/home/second.jpg"
+            alt="Photo by Paul Volkmer on Unsplash"
+            class=" dt-size-50"
+          />
+        </div>
+        <div class="main__bottom flex flex-column jc-between
+                    height-20 pl-2r text-bold
+                    md-height-50 md-pr-2r">
+          <h2 class="text-size-14 text-bold text-uppercase height-10 dt-pt-2r pb-2r
+                     dt-text-size-24">
+            Axel Arigato X Cat<br />
+            collection
+          </h2>
+          <a class="height-10 flex ai-center" href="category.html">Shop now</a>
+        </div>
+      </div>
+    </main>
+    <!-- #endregion main -->
+
+    <!-- #region footer -->
+    <footer class="none dt-block dt-text-size-18 dt-width-20">
+      <nav class="dt-flex dt-flex-column pr-2r dt-height-100">
+        <ul class="footer__list dt-flex dt-flex-column dt-ai-end">
+          <li>
+            <a
+              href="javascript:void(0);"
+              style="display: flex;align-items: center;"
+              class="dt-flex ai-center"
+            >
+              <span>Cart</span>
+              <span class="nav__circle-item nav__cart dt-text-color-white">
+                0
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">
+              <span class="nav__circle-item">
+                <span class="fas fa-search"></span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">
+              <span class="nav__circle-item">
+                <span class="far fa-user"></span>
+              </span>
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__list dt-flex dt-flex-column dt-ai-end">
+          <li>01 / 05 <span class="dt-ml-1r">─</span></li>
+          <li>-</li>
+          <li>-</li>
+          <li>-</li>
+          <li>-</li>
+        </ul>
+        <div class="footer__bottom dt-flex dt-jc-end dt-ai-end">
+          <span class="footer__text dt-text-size-24">scroll down</span>
+        </div>
+      </nav>
+    </footer>
+    <!-- #endregion footer -->
   </body>
 </html>

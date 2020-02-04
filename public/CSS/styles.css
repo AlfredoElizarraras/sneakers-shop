@@ -24,9 +24,32 @@ img {
 
 /* #endregion base */
 
-/* #region header */
+/* #region layout */
 
+/* #region header */
 /* #endregion header */
+
+/* #region main */
+
+/* #region index */
+.main__bottom {
+  background-color: #f5f5f5;
+}
+
+/* #endregion index */
+
+/* #region category */
+.category__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* #endregion category */
+
+/* #endregion main */
+
+/* #endregion layout */
 
 /* #region modules */
 
@@ -53,6 +76,10 @@ img {
 
 .jc-between {
   justify-content: space-between;
+}
+
+.jc-around {
+  justify-content: space-around;
 }
 
 .ac-start {
@@ -96,6 +123,14 @@ img {
 
 .block {
   display: block;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
 }
 /* #endregion display */
 
@@ -256,6 +291,26 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   padding-left: 1rem;
 }
 
+.p-2r {
+  padding: 2rem;
+}
+
+.pt-2r {
+  padding-top: 2rem;
+}
+
+.pr-2r {
+  padding-right: 2rem;
+}
+
+.pb-2r {
+  padding-bottom: 2rem;
+}
+
+.pl-2r {
+  padding-left: 2rem;
+}
+
 /* #endregion padding */
 
 /* #region margin */
@@ -343,6 +398,26 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   margin-left: 1rem;
 }
 
+.m-2r {
+  padding: 2rem;
+}
+
+.mt-2r {
+  padding-top: 2rem;
+}
+
+.mr-2r {
+  padding-right: 2rem;
+}
+
+.mb-2r {
+  padding-bottom: 2rem;
+}
+
+.ml-2r {
+  padding-left: 2rem;
+}
+
 /* #endregion margin */
 
 /* #region borders */
@@ -386,6 +461,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
 .height-5 {
   height: 5vh;
+}
+
+.size-9 {
+  width: 9vw;
+  height: 9vh;
+}
+
+.width-9 {
+  width: 9vw;
+}
+
+.height-9 {
+  height: 9vh;
 }
 
 .size-10 {
@@ -558,6 +646,14 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   /* #region header */
 
+  /* #region main */
+  .main__bottom {
+    bottom: 0;
+    right: 0;
+  }
+
+  /* #endregion main */
+
   /* #endregion header */
 
   /* #region modules */
@@ -581,6 +677,14 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .md-jc-end {
     justify-content: end;
+  }
+
+  .md-jc-between {
+    justify-content: space-between;
+  }
+
+  .md-jc-around {
+    justify-content: space-around;
   }
 
   .md-ac-start {
@@ -624,6 +728,14 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .md-block {
     display: block;
+  }
+
+  .md-relative {
+    position: relative;
+  }
+
+  .md-absolute {
+    position: absolute;
   }
   /* #endregion display */
 
@@ -784,6 +896,26 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     padding-left: 1rem;
   }
 
+  .md-p-2r {
+    padding: 2rem;
+  }
+
+  .md-pt-2r {
+    padding-top: 2rem;
+  }
+
+  .md-pr-2r {
+    padding-right: 2rem;
+  }
+
+  .md-pb-2r {
+    padding-bottom: 2rem;
+  }
+
+  .md-pl-2r {
+    padding-left: 2rem;
+  }
+
   /* #endregion padding */
 
   /* #region margin */
@@ -871,6 +1003,26 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     margin-left: 1rem;
   }
 
+  .md-m-2r {
+    padding: 2rem;
+  }
+
+  .md-mt-2r {
+    padding-top: 2rem;
+  }
+
+  .md-mr-2r {
+    padding-right: 2rem;
+  }
+
+  .md-mb-2r {
+    padding-bottom: 2rem;
+  }
+
+  .md-ml-2r {
+    padding-left: 2rem;
+  }
+
   /* #endregion margin */
 
   /* #region borders */
@@ -914,6 +1066,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .md-height-5 {
     height: 5vh;
+  }
+
+  .md-size-9 {
+    width: 9vw;
+    height: 9vh;
+  }
+
+  .md-width-9 {
+    width: 9vw;
+  }
+
+  .md-height-9 {
+    height: 9vh;
   }
 
   .md-size-10 {
@@ -1081,12 +1246,56 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   /* #endregion base */
 
+  /* #region layout */
+
   /* #region header */
   header {
     height: 100vh;
     width: 20vw;
   }
   /* #endregion header */
+
+  /* #region main */
+
+  /* #region index */
+
+  /* #endregion index */
+
+  /* #endregion main */
+
+  /* #region footer */
+  .footer__list {
+    flex-grow: 1;
+  }
+
+  .nav__circle-item {
+    display: block;
+    color: #313131;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px 0 10px 10px;
+  }
+
+  .nav__cart {
+    background-color: gray;
+  }
+
+  .footer__bottom {
+    flex-grow: 1;
+  }
+
+  .footer__text {
+    transform: rotate(90deg);
+    transform-origin: right;
+  }
+
+  /* #endregion footer */
+
+  /* #endregion layout */
 
   /* #region modules */
 
@@ -1113,6 +1322,14 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .dt-jc-end {
     justify-content: end;
+  }
+
+  .dt-jc-between {
+    justify-content: space-between;
+  }
+
+  .dt-jc-around {
+    justify-content: space-around;
   }
 
   .dt-ac-start {
@@ -1157,6 +1374,14 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   .dt-block {
     display: block;
   }
+
+  .dt-relative {
+    position: relative;
+  }
+
+  .dt-absolute {
+    position: absolute;
+  }
   /* #endregion display */
 
   /* #region text */
@@ -1169,15 +1394,15 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   }
 
   .dt-text-size-18 {
-    font-size: 1dt-125rem;
+    font-size: 1.125rem;
   }
 
   .dt-text-size-24 {
-    font-size: 1dt-5rem;
+    font-size: 1.5rem;
   }
 
   .dt-text-size-40 {
-    font-size: 2dt-5rem;
+    font-size: 2.5rem;
   }
 
   .dt-text-uppercase {
@@ -1316,6 +1541,26 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     padding-left: 1rem;
   }
 
+  .dt-p-2r {
+    padding: 2rem;
+  }
+
+  .dt-pt-2r {
+    padding-top: 2rem;
+  }
+
+  .dt-pr-2r {
+    padding-right: 2rem;
+  }
+
+  .dt-pb-2r {
+    padding-bottom: 2rem;
+  }
+
+  .dt-pl-2r {
+    padding-left: 2rem;
+  }
+
   /* #endregion padding */
 
   /* #region margin */
@@ -1403,6 +1648,26 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     margin-left: 1rem;
   }
 
+  .dt-m-2r {
+    padding: 2rem;
+  }
+
+  .dt-mt-2r {
+    padding-top: 2rem;
+  }
+
+  .dt-mr-2r {
+    padding-right: 2rem;
+  }
+
+  .dt-mb-2r {
+    padding-bottom: 2rem;
+  }
+
+  .dt-ml-2r {
+    padding-left: 2rem;
+  }
+
   /* #endregion margin */
 
   /* #region borders */
@@ -1446,6 +1711,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .dt-height-5 {
     height: 5vh;
+  }
+
+  .dt-size-9 {
+    width: 9vw;
+    height: 9vh;
+  }
+
+  .dt-width-9 {
+    width: 9vw;
+  }
+
+  .dt-height-9 {
+    height: 9vh;
   }
 
   .dt-size-10 {
@@ -1589,6 +1867,32 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .dt-height-90 {
     height: 90vh;
+  }
+
+  .dt-size-98 {
+    width: 98vw;
+    height: 98vh;
+  }
+
+  .dt-width-98 {
+    width: 98vw;
+  }
+
+  .dt-height-98 {
+    height: 98vh;
+  }
+
+  .dt-size-99 {
+    width: 99vw;
+    height: 99vh;
+  }
+
+  .dt-width-99 {
+    width: 99vw;
+  }
+
+  .dt-height-99 {
+    height: 99vh;
   }
 
   .dt-size-100 {
