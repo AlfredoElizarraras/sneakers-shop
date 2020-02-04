@@ -25,9 +25,7 @@ img {
 /* #endregion base */
 
 /* #region header */
-/* .nav__social li {
-  padding-bottom: 2rem;
-} */
+
 /* #endregion header */
 
 /* #region modules */
@@ -178,6 +176,66 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   padding: 0;
 }
 
+.p-025r {
+  padding: 0.25rem;
+}
+
+.pt-025r {
+  padding-top: 0.25rem;
+}
+
+.pr-025r {
+  padding-right: 0.25rem;
+}
+
+.pb-025r {
+  padding-bottom: 0.25rem;
+}
+
+.pl-025r {
+  padding-left: 0.25rem;
+}
+
+.p-050r {
+  padding: 0.5rem;
+}
+
+.pt-050r {
+  padding-top: 0.5rem;
+}
+
+.pr-050r {
+  padding-right: 0.5rem;
+}
+
+.pb-050r {
+  padding-bottom: 0.5rem;
+}
+
+.pl-050r {
+  padding-left: 0.5rem;
+}
+
+.p-075r {
+  padding: 0.75rem;
+}
+
+.pt-075r {
+  padding-top: 0.75rem;
+}
+
+.pr-075r {
+  padding-right: 0.75rem;
+}
+
+.pb-075r {
+  padding-bottom: 0.75rem;
+}
+
+.pl-075r {
+  padding-left: 0.75rem;
+}
+
 .p-1r {
   padding: 1rem;
 }
@@ -203,6 +261,86 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 /* #region margin */
 .no-margin {
   margin: 0;
+}
+
+.m-025r {
+  margin: 0.25rem;
+}
+
+.mt-025r {
+  margin-top: 0.25rem;
+}
+
+.mr-025r {
+  margin-right: 0.25rem;
+}
+
+.mb-025r {
+  margin-bottom: 0.25rem;
+}
+
+.ml-025r {
+  margin-left: 0.25rem;
+}
+
+.m-050r {
+  margin: 0.5rem;
+}
+
+.mt-050r {
+  margin-top: 0.5rem;
+}
+
+.mr-050r {
+  margin-right: 0.5rem;
+}
+
+.mb-050r {
+  margin-bottom: 0.5rem;
+}
+
+.ml-050r {
+  margin-left: 0.5rem;
+}
+
+.m-075r {
+  margin: 0.75rem;
+}
+
+.mt-075r {
+  margin-top: 0.75rem;
+}
+
+.mr-075r {
+  margin-right: 0.75rem;
+}
+
+.mb-075r {
+  margin-bottom: 0.75rem;
+}
+
+.ml-075r {
+  margin-left: 0.75rem;
+}
+
+.m-1r {
+  margin: 1rem;
+}
+
+.mt-1r {
+  margin-top: 1rem;
+}
+
+.mr-1r {
+  margin-right: 1rem;
+}
+
+.mb-1r {
+  margin-bottom: 1rem;
+}
+
+.ml-1r {
+  margin-left: 1rem;
 }
 
 /* #endregion margin */
@@ -261,6 +399,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
 .height-10 {
   height: 10vh;
+}
+
+.size-12-5 {
+  width: 12.5vw;
+  height: 12.5vh;
+}
+
+.width-12-5 {
+  width: 12.5vw;
+}
+
+.height-12-5 {
+  height: 12.5vh;
 }
 
 .size-20 {
@@ -478,11 +629,11 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   /* #region text */
   .md-text-size-12 {
-    font-size: 0md-75rem;
+    font-size: 0.75rem;
   }
 
   .md-text-size-14 {
-    font-size: 0md-875rem;
+    font-size: 0.875rem;
   }
 
   .md-text-size-18 {
@@ -553,6 +704,66 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     padding: 0;
   }
 
+  .md-p-025r {
+    padding: 0.25rem;
+  }
+
+  .md-pt-025r {
+    padding-top: 0.25rem;
+  }
+
+  .md-pr-025r {
+    padding-right: 0.25rem;
+  }
+
+  .md-pb-025r {
+    padding-bottom: 0.25rem;
+  }
+
+  .md-pl-025r {
+    padding-left: 0.25rem;
+  }
+
+  .md-p-050r {
+    padding: 0.5rem;
+  }
+
+  .md-pt-050r {
+    padding-top: 0.5rem;
+  }
+
+  .md-pr-050r {
+    padding-right: 0.5rem;
+  }
+
+  .md-pb-050r {
+    padding-bottom: 0.5rem;
+  }
+
+  .md-pl-050r {
+    padding-left: 0.5rem;
+  }
+
+  .md-p-075r {
+    padding: 0.75rem;
+  }
+
+  .md-pt-075r {
+    padding-top: 0.75rem;
+  }
+
+  .md-pr-075r {
+    padding-right: 0.75rem;
+  }
+
+  .md-pb-075r {
+    padding-bottom: 0.75rem;
+  }
+
+  .md-pl-075r {
+    padding-left: 0.75rem;
+  }
+
   .md-p-1r {
     padding: 1rem;
   }
@@ -575,29 +786,116 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   /* #endregion padding */
 
+  /* #region margin */
+  .md-no-margin {
+    margin: 0;
+  }
+
+  .md-m-025r {
+    margin: 0.25rem;
+  }
+
+  .md-mt-025r {
+    margin-top: 0.25rem;
+  }
+
+  .md-mr-025r {
+    margin-right: 0.25rem;
+  }
+
+  .md-mb-025r {
+    margin-bottom: 0.25rem;
+  }
+
+  .md-ml-025r {
+    margin-left: 0.25rem;
+  }
+
+  .md-m-050r {
+    margin: 0.5rem;
+  }
+
+  .md-mt-050r {
+    margin-top: 0.5rem;
+  }
+
+  .md-mr-050r {
+    margin-right: 0.5rem;
+  }
+
+  .md-mb-050r {
+    margin-bottom: 0.5rem;
+  }
+
+  .md-ml-050r {
+    margin-left: 0.5rem;
+  }
+
+  .md-m-075r {
+    margin: 0.75rem;
+  }
+
+  .md-mt-075r {
+    margin-top: 0.75rem;
+  }
+
+  .md-mr-075r {
+    margin-right: 0.75rem;
+  }
+
+  .md-mb-075r {
+    margin-bottom: 0.75rem;
+  }
+
+  .md-ml-075r {
+    margin-left: 0.75rem;
+  }
+
+  .md-m-1r {
+    margin: 1rem;
+  }
+
+  .md-mt-1r {
+    margin-top: 1rem;
+  }
+
+  .md-mr-1r {
+    margin-right: 1rem;
+  }
+
+  .md-mb-1r {
+    margin-bottom: 1rem;
+  }
+
+  .md-ml-1r {
+    margin-left: 1rem;
+  }
+
+  /* #endregion margin */
+
   /* #region borders */
   .md-border-1-white {
-    border: 0md-06rem solid #fff;
+    border: 0.06rem solid #fff;
   }
 
   .md-border-3-white {
-    border: 0md-19rem solid #fff;
+    border: 0.19rem solid #fff;
   }
 
   .md-border-top-3-white {
-    border-top: 0md-19rem solid #fff;
+    border-top: 0.19rem solid #fff;
   }
 
   .md-border-right-3-white {
-    border-right: 0md-19rem solid #fff;
+    border-right: 0.19rem solid #fff;
   }
 
   .md-border-bottom-3-white {
-    border-bottom: 0md-19rem solid #fff;
+    border-bottom: 0.19rem solid #fff;
   }
 
   .md-border-left-3-white {
-    border-left: 0md-19rem solid #fff;
+    border-left: 0.19rem solid #fff;
   }
 
   /* #endregion borders */
@@ -629,6 +927,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .md-height-10 {
     height: 10vh;
+  }
+
+  .md-size-12-5 {
+    width: 12.5vw;
+    height: 12.5vh;
+  }
+
+  .md-width-12-5 {
+    width: 12.5vw;
+  }
+
+  .md-height-12-5 {
+    height: 12.5vh;
   }
 
   .md-size-20 {
@@ -850,11 +1161,11 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   /* #region text */
   .dt-text-size-12 {
-    font-size: 0dt-75rem;
+    font-size: 0.75rem;
   }
 
   .dt-text-size-14 {
-    font-size: 0dt-875rem;
+    font-size: 0.875rem;
   }
 
   .dt-text-size-18 {
@@ -925,12 +1236,72 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     padding: 0;
   }
 
+  .dt-p-025r {
+    padding: 0.25rem;
+  }
+
+  .dt-pt-025r {
+    padding-top: 0.25rem;
+  }
+
+  .dt-pr-025r {
+    padding-right: 0.25rem;
+  }
+
+  .dt-pb-025r {
+    padding-bottom: 0.25rem;
+  }
+
+  .dt-pl-025r {
+    padding-left: 0.25rem;
+  }
+
+  .dt-p-050r {
+    padding: 0.5rem;
+  }
+
+  .dt-pt-050r {
+    padding-top: 0.5rem;
+  }
+
+  .dt-pr-050r {
+    padding-right: 0.5rem;
+  }
+
+  .dt-pb-050r {
+    padding-bottom: 0.5rem;
+  }
+
+  .dt-pl-050r {
+    padding-left: 0.5rem;
+  }
+
+  .dt-p-075r {
+    padding: 0.75rem;
+  }
+
+  .dt-pt-075r {
+    padding-top: 0.75rem;
+  }
+
+  .dt-pr-075r {
+    padding-right: 0.75rem;
+  }
+
+  .dt-pb-075r {
+    padding-bottom: 0.75rem;
+  }
+
+  .dt-pl-075r {
+    padding-left: 0.75rem;
+  }
+
   .dt-p-1r {
     padding: 1rem;
   }
 
-  .dt-pt-0-25r {
-    padding-top: 0.25rem !important;
+  .dt-pt-1r {
+    padding-top: 1rem;
   }
 
   .dt-pr-1r {
@@ -947,29 +1318,116 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   /* #endregion padding */
 
+  /* #region margin */
+  .dt-no-margin {
+    margin: 0;
+  }
+
+  .dt-m-025r {
+    margin: 0.25rem;
+  }
+
+  .dt-mt-025r {
+    margin-top: 0.25rem;
+  }
+
+  .dt-mr-025r {
+    margin-right: 0.25rem;
+  }
+
+  .dt-mb-025r {
+    margin-bottom: 0.25rem;
+  }
+
+  .dt-ml-025r {
+    margin-left: 0.25rem;
+  }
+
+  .dt-m-050r {
+    margin: 0.5rem;
+  }
+
+  .dt-mt-050r {
+    margin-top: 0.5rem;
+  }
+
+  .dt-mr-050r {
+    margin-right: 0.5rem;
+  }
+
+  .dt-mb-050r {
+    margin-bottom: 0.5rem;
+  }
+
+  .dt-ml-050r {
+    margin-left: 0.5rem;
+  }
+
+  .dt-m-075r {
+    margin: 0.75rem;
+  }
+
+  .dt-mt-075r {
+    margin-top: 0.75rem;
+  }
+
+  .dt-mr-075r {
+    margin-right: 0.75rem;
+  }
+
+  .dt-mb-075r {
+    margin-bottom: 0.75rem;
+  }
+
+  .dt-ml-075r {
+    margin-left: 0.75rem;
+  }
+
+  .dt-m-1r {
+    margin: 1rem;
+  }
+
+  .dt-mt-1r {
+    margin-top: 1rem;
+  }
+
+  .dt-mr-1r {
+    margin-right: 1rem;
+  }
+
+  .dt-mb-1r {
+    margin-bottom: 1rem;
+  }
+
+  .dt-ml-1r {
+    margin-left: 1rem;
+  }
+
+  /* #endregion margin */
+
   /* #region borders */
   .dt-border-1-white {
-    border: 0dt-06rem solid #fff;
+    border: 0.06rem solid #fff;
   }
 
   .dt-border-3-white {
-    border: 0dt-19rem solid #fff;
+    border: 0.19rem solid #fff;
   }
 
   .dt-border-top-3-white {
-    border-top: 0dt-19rem solid #fff;
+    border-top: 0.19rem solid #fff;
   }
 
   .dt-border-right-3-white {
-    border-right: 0dt-19rem solid #fff;
+    border-right: 0.19rem solid #fff;
   }
 
   .dt-border-bottom-3-white {
-    border-bottom: 0dt-19rem solid #fff;
+    border-bottom: 0.19rem solid #fff;
   }
 
   .dt-border-left-3-white {
-    border-left: 0dt-19rem solid #fff;
+    border-left: 0.19rem solid #fff;
   }
 
   /* #endregion borders */
@@ -1001,6 +1459,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .dt-height-10 {
     height: 10vh;
+  }
+
+  .dt-size-12-5 {
+    width: 12.5vw;
+    height: 12.5vh;
+  }
+
+  .dt-width-12-5 {
+    width: 12.5vw;
+  }
+
+  .dt-height-12-5 {
+    height: 12.5vh;
   }
 
   .dt-size-20 {
