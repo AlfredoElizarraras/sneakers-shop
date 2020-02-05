@@ -29,6 +29,7 @@ img {
 /* #region layout */
 
 /* #region header */
+
 /* #endregion header */
 
 /* #region main */
@@ -133,6 +134,7 @@ img {
 .absolute {
   position: absolute;
 }
+
 /* #endregion display */
 
 /* #region text */
@@ -184,7 +186,7 @@ img {
   color: #f5f5f5;
 }
 
-/* This piece of code I founded here: 
+/* This piece of code I founded here:
 https://www.geeksforgeeks.org/making-a-div-vertically-scrollable-using-css/
 */
 .text-scroll {
@@ -680,6 +682,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 .height-100 {
   height: 100vh;
 }
+
 /* #endregion container size */
 
 /* #region custome components */
@@ -700,6 +703,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   font-size: 0.775rem;
   color: #b9b9b9;
 }
+
 /* #endregion custome components */
 
 /* #endregion modules */
@@ -792,6 +796,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   .md-order-1 {
     order: 1;
   }
+
   /* #endregion flex */
 
   /* #region display */
@@ -810,6 +815,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   .md-absolute {
     position: absolute;
   }
+
   /* #endregion display */
 
   /* #region text */
@@ -822,15 +828,15 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   }
 
   .md-text-size-18 {
-    font-size: 1md-125rem;
+    font-size: 1.125rem;
   }
 
   .md-text-size-24 {
-    font-size: 1md-5rem;
+    font-size: 1.5rem;
   }
 
   .md-text-size-40 {
-    font-size: 2md-5rem;
+    font-size: 2.5rem;
   }
 
   .md-text-uppercase {
@@ -861,7 +867,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     color: #f5f5f5;
   }
 
-  /* This piece of code I founded here: 
+  /* This piece of code I founded here:
 https://www.geeksforgeeks.org/making-a-div-vertically-scrollable-using-css/
 */
   .md-text-scroll {
@@ -1357,6 +1363,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   .md-height-100 {
     height: 100vh;
   }
+
   /* #endregion container size */
 
   /* #endregion modules */
@@ -1374,6 +1381,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     height: 100vh;
     width: 20vw;
   }
+
   /* #endregion header */
 
   /* #region main */
@@ -1492,6 +1500,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   .dt-order-1 {
     order: 1;
   }
+
   /* #endregion flex */
 
   /* #region display */
@@ -1510,6 +1519,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   .dt-absolute {
     position: absolute;
   }
+
   /* #endregion display */
 
   /* #region text */
@@ -1561,7 +1571,7 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     color: #f5f5f5;
   }
 
-  /* This piece of code I founded here: 
+  /* This piece of code I founded here:
 https://www.geeksforgeeks.org/making-a-div-vertically-scrollable-using-css/
 */
   .dt-text-scroll {
@@ -2083,8 +2093,10 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   .dt-height-100 {
     height: 100vh;
   }
+
   /* #endregion container size */
 
   /* #endregion modules */
 }
+
 /* #endregion media queries */
