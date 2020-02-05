@@ -9,12 +9,12 @@
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
-    />
+    /> -->
     <link rel="stylesheet" href="CSS/minireset.css" />
     <link rel="stylesheet" href="CSS/styles.css" />
     <link
@@ -25,172 +25,195 @@
       src="https://kit.fontawesome.com/aa8f7564dc.js"
       crossorigin="anonymous"
     ></script>
-    <title>Category</title>
+    <title>Product</title>
   </head>
-  <body>
-    <div class="outside-container">
-      <!-- #region header -->
-      <header>
-        <nav>
-          <div class="nav__top">
-            <h1 class=" nav__title"><a href="index.html">Axel Arigato</a></h1>
-            <ul class="nav__categories none dt-block">
-              <li><a href="javascript:void(0);">Men</a></li>
-              <li><a href="javascript:void(0);">Women</a></li>
-              <li><a href="javascript:void(0);">Objects</a></li>
-            </ul>
-            <div>
-              <a href="javascript:void(0);" class=" nav__menu">
-                <span class="fas fa-bars nav__bars-icon"></span>
-                <span class="none dt-block">Menu</span>
-              </a>
-            </div>
+  <body class="flex flex-column dt-jc-between dt-flex-row size-100">
+    <!-- #region header -->
+    <header
+      class="flex flex-column jc-center height-9
+                   dt-height-100"
+    >
+      <nav
+        class="flex pb-1r
+               dt-flex-column dt-height-100 dt-pl-1r"
+      >
+        <div
+          class="flex jc-between 
+                    dt-flex-column
+                    width-100
+                    dt-height-50 dt-width-20"
+        >
+          <h1
+            class="text-bold text-uppercase pt-1r pl-1r dt-no-padding dt-pt-1r"
+          >
+            <a href="index.html">Axel Arigato</a>
+          </h1>
+          <ul class="none dt-flex dt-flex-column dt-jc-between">
+            <li class="dt-pb-1r"><a href="javascript:void(0);">Men</a></li>
+            <li class="dt-pb-1r"><a href="javascript:void(0);">Women</a></li>
+            <li><a href="javascript:void(0);">Objects</a></li>
+          </ul>
+          <div class="pt-1r pr-1r">
+            <a href="javascript:void(0);" class="dt-flex dt-ai-end">
+              <span class="fas fa-bars nav__bars-icon"></span>
+              <span class="none dt-block dt-text-size-12 dt-pl-1r dt-pt-025r"
+                >Menu</span
+              >
+            </a>
           </div>
-          <div class="nav__bottom none">
-            <ul class="nav__social">
-              <li><a href="javascript:void(0);">Instagram</a></li>
-              <li><a href="javascript:void(0);">Facebook</a></li>
-              <li><a href="javascript:void(0);">Twitter</a></li>
-              <li><a href="javascript:void(0);">Youtube</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <!-- #endregion header -->
+        </div>
+        <div class="none dt-flex dt-ai-end dt-height-50 dt-width-20">
+          <ul>
+            <li class="dt-pb-1r">
+              <a href="javascript:void(0);">Instagram</a>
+            </li>
+            <li class="dt-pb-1r"><a href="javascript:void(0);">Facebook</a></li>
+            <li class="dt-pb-1r"><a href="javascript:void(0);">Twitter</a></li>
+            <li class="dt-pb-1r"><a href="javascript:void(0);">Youtube</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- #endregion header -->
 
-      <!-- #region main -->
-      <main class="main">
-        <div class="d-flex flex-column flex-md-row flex-lg-column no-padding">
+    <!-- #region main -->
+      <main class="flex flex-column">
+        <div class="flex flex-column md-flex-row dt-flex-column no-padding">
           <div
-            class="d-none d-md-flex flex-md-column flex-lg-row col-md-4  dt-max-width-100 no-padding"
+            class="none md-flex md-flex-column dt-flex-column md-width-30 dt-width-100 no-padding"
           >
             <article
-              class=" d-flex align-items-center article flex-grow-1 p-5 p-lg-1"
+              class="flex jc-center ai-center article md-width-30 md-height-22-5"
             >
               <h3 class="screen-reader">Sneaker model one</h3>
               <a href="product.html"
                 ><img
                   src="images/category/sneakers.jpg"
                   alt="Photo by Melvin Buezo from Pexels"
+                  class=" md-height-10 md-width-20"
               /></a>
             </article>
             <article
-              class=" d-flex align-items-center article flex-grow-1 p-5 p-lg-1"
+              class="flex jc-center ai-center article md-width-30 md-height-22-5"
             >
               <h3 class="screen-reader">Sneaker model two</h3>
               <a href="product.html"
                 ><img
                   src="images/category/sneakers-1.jpg"
                   alt="Photo by Mstudio from Pexels"
+                  class="md-height-10 md-width-20"
               /></a>
             </article>
             <article
-              class=" d-flex align-items-center article flex-grow-1 p-5 p-lg-1"
+              class="flex jc-center ai-center article md-width-30 md-height-22-5"
             >
               <h3 class="screen-reader">Sneaker model three</h3>
               <a href="product.html"
                 ><img
                   src="images/category/snekers-2.jpg"
                   alt="Photo by Mnz from Pexels"
+                  class="md-height-10 md-width-20"
               /></a>
             </article>
             <article
-              class=" d-flex align-items-center article flex-grow-1 p-5 p-lg-1"
+              class="flex jc-center ai-center article md-width-30 md-height-22-5"
             >
               <h3 class="screen-reader">Sneaker model four</h3>
               <a href="product.html"
                 ><img
                   src="images/category/sneakers.jpg"
                   alt="Photo by Melvin Buezo from Pexels"
+                  class="md-height-10 md-width-20"
               /></a>
             </article>
           </div>
           <div
-            class="d-flex flex-column col-md-8 flex-lg-row no-padding no-margin dt-flex-basis-0 dt-max-width-100 flex-lg-grow-1"
+            class="flex flex-column"
           >
-            <div class="col-lg-8 order-1 order-lg-2 no-padding">
-              <article class="d-flex flex-column article">
+            <div class="order-1 order-lg-2 no-padding border-bottom-3-white">
+              <article class="flex flex-column jc-between height-40 md-width-70 article">
                 <h3 class="screen-reader">Sneaker image</h3>
-                <div class="py-3 py-lg-1 d-flex justify-content-end">
-                  <span class="pr-3">30111</span>
+                <div class="flex jc-end pt-1r">
+                  <span class="pr-1r">30111</span>
                 </div>
                 <a
                   href="category.html"
-                  class="p-5 p-lg-3 d-flex justify-content-center"
+                  class="flex jc-center"
                   ><img
                     src="images/category/sneakers.jpg"
                     alt="Photo by Melvin Buezo from Pexels"
+                    class=" height-20 width-80"
                 /></a>
                 <div
-                  class="d-flex justify-content-center align-items-center py-3 py-lg-1"
+                  class="flex jc-center ai-center"
                 >
                   <span
-                    class=" article__info flex-lg-grow-1 d-lg-flex justify-content-lg-end mx-5"
+                    class=" article__info dt-flex dt-jc-end pb-075r mr-1r ml-1r"
                     >04 / 05</span
                   >
-                  <div class="d-none d-lg-flex justify-content-between">
-                    <a href="javascript:void(0);" class="mx-5">Prev</a>
-                    <a href="javascript:void(0);" class="mx-5">Next</a>
+                  <div class="none dt-flex jc-between">
+                    <a href="javascript:void(0);" class="mr-1r ml-1r">Prev</a>
+                    <a href="javascript:void(0);" class="mr-1r ml-1r">Next</a>
                   </div>
                 </div>
               </article>
             </div>
             <div
-              class="d-flex flex-column col-lg-4 order-2 order-lg-1 no-padding"
+              class="flex flex-column no-padding"
             >
               <article
-                class="d-flex article justify-content-between align-items-center"
+                class="flex article jc-between ai-center height-10 md-width-70 border-bottom-3-white"
               >
                 <h3 class="screen-reader">Sneaker model and price</h3>
-                <div class="py-3 d-flex flex-column pl-3">
-                  <span class="article__info uppercase mb-2">Tech Runner</span>
-                  <span class="article__summary light-text uppercase"
+                <div class="flex flex-column pl-1r">
+                  <span class="article__info text-uppercase">Tech Runner</span>
+                  <span class="article__summary text-color-gray text-uppercase"
                     >Multicolored Leather</span
                   >
                 </div>
                 <div
-                  class="d-flex justify-content-center align-items-center pr-3"
+                  class="flex jc-center ai-center pr-1r"
                 >
-                  <span class=" article__info">380 USD</span>
+                  <span class="article__info">380 USD</span>
                 </div>
               </article>
               <article
-                class="d-flex article justify-content-between align-items-center py-4 py-lg-1"
+                class="flex article jc-between ai-center height-10 md-width-70 border-bottom-3-white"
               >
                 <h3 class="screen-reader">Sneaker sizes</h3>
                 <a href="javascript:void(0);"
-                  ><span class="light-text pl-3">40</span></a
+                  ><span class="text-color-gray pl-1r">40</span></a
                 >
                 <a href="javascript:void(0);"
-                  ><span class="light-text">41</span></a
+                  ><span class="text-color-gray">41</span></a
                 >
                 <a href="javascript:void(0);"
-                  ><span class="light-text">42</span></a
+                  ><span class="text-color-gray">42</span></a
                 >
                 <a href="javascript:void(0);"
-                  ><span class="article__info">43</span></a
+                  ><span class="text-bold">43</span></a
                 >
                 <a href="javascript:void(0);"
-                  ><span class="light-text">44</span></a
+                  ><span class="text-color-gray">44</span></a
                 >
                 <a href="javascript:void(0);"
-                  ><span class="light-text">45</span></a
+                  ><span class="text-color-gray">45</span></a
                 >
                 <a href="javascript:void(0);"
-                  ><span class="light-text pr-3">46</span></a
+                  ><span class="text-color-gray pr-1r">46</span></a
                 >
               </article>
-              <article class="d-flex flex-column article flex-lg-grow-1">
+              <article class="flex flex-column article height-20 md-width-70  border-bottom-3-white">
                 <h3 class="screen-reader">Sneaker model and price</h3>
-                <div class="py-3 d-flex flex-column pl-3">
-                  <span class="article__info article__info--small uppercase"
+                <div class="flex flex-column pl-1r pt-075r">
+                  <span class="article__info article__info--small text-uppercase"
                     >Details</span
                   >
                 </div>
                 <div
-                  class="d-flex justify-content-center align-items-lg-start pr-3"
+                  class="flex jc-center dt-ai-start pl-1r pr-1r text-scroll"
                 >
-                  <p class="article__summary px-3">
+                  <p class="text-color-gray text-size-14 pt-025r md-pt-2r">
                     Launching the second release of the "Tech Runner" in 5 new
                     colourways. Handcrafted in Portugal, the fusing of elements
                     with robotics and engineering has an alternative approach to
@@ -199,15 +222,16 @@
                   </p>
                 </div>
               </article>
-              <article class="d-flex align-items-center article border-top">
+              <article class="flex ai-center article height-10 md-width-70 ">
                 <h3 class="screen-reader">Add to the cart section</h3>
                 <div
-                  class="d-flex justify-content-center border-right p-4 mx-2"
+                  class="flex jc-center ai-center border-right-3-white height-10 width-30"
                 >
                   <a href="javascript:void(0);"><span>+</span></a>
                 </div>
                 <div
-                  class="flex-grow-1 d-flex justify-content-center align-items-center"
+                  class="flex jc-center ai-center"
+                  style="flex-grow: 1;"
                 >
                   <a href="javascript:void(0);"><span>Add To Cart</span></a>
                 </div>
@@ -216,44 +240,51 @@
           </div>
         </div>
       </main>
-      <!-- #endregion main -->
+    <!-- #endregion main -->
 
-      <!-- #region footer -->
-      <footer class="none dt-block">
-        <nav class="footer__nav">
-          <ul class="footer__list">
-            <li>
-              <a
-                href="javascript:void(0);"
-                style="display: flex;align-items: center;"
-              >
-                <span>Cart</span>
-                <span class="nav__circle-item nav__cart">
-                  0
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0);">
-                <span class="nav__circle-item">
-                  <span class="fas fa-search"></span>
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0);">
-                <span class="nav__circle-item">
-                  <span class="far fa-user"></span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <ul class=" footer__list">
-            <li><a href="category.html">Back to Catalogue</a></li>
-          </ul>
-        </nav>
-      </footer>
-      <!-- #endregion footer -->
-    </div>
+    <!-- #region footer -->
+    <footer class="none dt-block dt-text-size-18 dt-width-20">
+      <nav class="dt-flex dt-flex-column pr-2r dt-height-100">
+        <ul class="footer__list dt-flex dt-flex-column dt-ai-end">
+          <li>
+            <a
+              href="javascript:void(0);"
+              style="display: flex;align-items: center;"
+              class="dt-flex ai-center"
+            >
+              <span>Cart</span>
+              <span class="nav__circle-item nav__cart dt-text-color-white">
+                0
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">
+              <span class="nav__circle-item">
+                <span class="fas fa-search"></span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">
+              <span class="nav__circle-item">
+                <span class="far fa-user"></span>
+              </span>
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__list dt-flex dt-flex-column dt-ai-end">
+          <li>01 / 05 <span class="dt-ml-1r">─</span></li>
+          <li>-</li>
+          <li>-</li>
+          <li>-</li>
+          <li>-</li>
+        </ul>
+        <div class="footer__bottom dt-flex dt-jc-end dt-ai-end">
+          <span class="footer__text dt-text-size-24">scroll down</span>
+        </div>
+      </nav>
+    </footer>
+    <!-- #endregion footer -->
   </body>
 </html>

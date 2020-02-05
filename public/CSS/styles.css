@@ -3,6 +3,8 @@ body {
   color: #313131;
   background-color: #fff;
   font-family: "Arimo", sans-serif;
+  min-width: 375px;
+  min-height: 500px;
 }
 
 a {
@@ -176,6 +178,15 @@ img {
 
 .text-color-lightgray {
   color: #f5f5f5;
+}
+
+/* This piece of code I founded here: 
+https://www.geeksforgeeks.org/making-a-div-vertically-scrollable-using-css/
+*/
+.text-scroll {
+  overflow-x: hidden;
+  overflow-x: auto;
+  text-align: justify;
 }
 
 /* #endregion text */
@@ -510,6 +521,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   height: 20vh;
 }
 
+.size-22-5 {
+  width: 22.5vw;
+  height: 22.5vh;
+}
+
+.width-22-5 {
+  width: 22.5vw;
+}
+
+.height-22-5 {
+  height: 22.5vh;
+}
+
 .size-25 {
   width: 25vw;
   height: 25vh;
@@ -804,6 +828,15 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .md-text-color-lightgray {
     color: #f5f5f5;
+  }
+
+  /* This piece of code I founded here: 
+https://www.geeksforgeeks.org/making-a-div-vertically-scrollable-using-css/
+*/
+  .md-text-scroll {
+    overflow-x: hidden;
+    overflow-x: auto;
+    text-align: justify;
   }
 
   /* #endregion text */
@@ -1138,6 +1171,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     height: 20vh;
   }
 
+  .md-size-22-5 {
+    width: 22.5vw;
+    height: 22.5vh;
+  }
+
+  .md-width-22-5 {
+    width: 22.5vw;
+  }
+
+  .md-height-22-5 {
+    height: 22.5vh;
+  }
+
   .md-size-25 {
     width: 25vw;
     height: 25vh;
@@ -1449,6 +1495,15 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .dt-text-color-lightgray {
     color: #f5f5f5;
+  }
+
+  /* This piece of code I founded here: 
+https://www.geeksforgeeks.org/making-a-div-vertically-scrollable-using-css/
+*/
+  .dt-text-scroll {
+    overflow-x: hidden;
+    overflow-x: auto;
+    text-align: justify;
   }
 
   /* #endregion text */
@@ -1781,6 +1836,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .dt-height-20 {
     height: 20vh;
+  }
+
+  .dt-size-22-5 {
+    width: 22.5vw;
+    height: 22.5vh;
+  }
+
+  .dt-width-22-5 {
+    width: 22.5vw;
+  }
+
+  .dt-height-22-5 {
+    height: 22.5vh;
   }
 
   .dt-size-25 {
