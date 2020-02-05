@@ -111,6 +111,10 @@ img {
   flex-wrap: wrap;
 }
 
+.order-1 {
+  order: 1;
+}
+
 /* #endregion flex */
 
 /* #region display */
@@ -573,6 +577,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
   height: 40vh;
 }
 
+.size-48 {
+  width: 48vw;
+  height: 48vh;
+}
+
+.width-48 {
+  width: 48vw;
+}
+
+.height-48 {
+  height: 48vh;
+}
+
 .size-50 {
   width: 50vw;
   height: 50vh;
@@ -610,6 +627,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
 .height-70 {
   height: 70vh;
+}
+
+.size-78 {
+  width: 78vw;
+  height: 78vh;
+}
+
+.width-78 {
+  width: 78vw;
+}
+
+.height-78 {
+  height: 78vh;
 }
 
 .size-80 {
@@ -655,8 +685,6 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 /* #region custome components */
 .article {
   background-color: #f5f5f5;
-  min-width: 150px;
-  max-height: 70vh;
 }
 
 .article__info {
@@ -761,6 +789,9 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     flex-wrap: wrap;
   }
 
+  .md-order-1 {
+    order: 1;
+  }
   /* #endregion flex */
 
   /* #region display */
@@ -1223,6 +1254,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     height: 40vh;
   }
 
+  .md-size-48 {
+    width: 48vw;
+    height: 48vh;
+  }
+
+  .md-width-48 {
+    width: 48vw;
+  }
+
+  .md-height-48 {
+    height: 48vh;
+  }
+
   .md-size-50 {
     width: 50vw;
     height: 50vh;
@@ -1260,6 +1304,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .md-height-70 {
     height: 70vh;
+  }
+
+  .md-size-78 {
+    width: 78vw;
+    height: 78vh;
+  }
+
+  .md-width-78 {
+    width: 78vw;
+  }
+
+  .md-height-78 {
+    height: 78vh;
   }
 
   .md-size-80 {
@@ -1428,6 +1485,13 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     flex-wrap: wrap;
   }
 
+  .dt-flex-0 {
+    flex: 0;
+  }
+
+  .dt-order-1 {
+    order: 1;
+  }
   /* #endregion flex */
 
   /* #region display */
@@ -1890,6 +1954,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
     height: 40vh;
   }
 
+  .dt-size-48 {
+    width: 48vw;
+    height: 48vh;
+  }
+
+  .dt-width-48 {
+    width: 48vw;
+  }
+
+  .dt-height-48 {
+    height: 48vh;
+  }
+
   .dt-size-50 {
     width: 50vw;
     height: 50vh;
@@ -1927,6 +2004,19 @@ It hiddes elements but allows screen readers to see it, so I can use articles in
 
   .dt-height-70 {
     height: 70vh;
+  }
+
+  .dt-size-78 {
+    width: 78vw;
+    height: 78vh;
+  }
+
+  .dt-width-78 {
+    width: 78vw;
+  }
+
+  .dt-height-78 {
+    height: 78vh;
   }
 
   .dt-size-80 {
