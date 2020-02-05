@@ -25,6 +25,12 @@ https://raw.githack.com/AlfredoElizarraras/sneakers-shop/development/public/inde
 
 ---
 
+## Video Demo
+
+https://www.loom.com/share/25ea70a0c111481982df052b40886d8b
+
+---
+
 ## Built With
 
 - HTML5
