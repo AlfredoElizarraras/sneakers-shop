@@ -5,13 +5,29 @@
 
 > This project is completed by Oscar Alfredo Gómez Elizarrarás, in partial requirements of the Microverse cirriculum. 
 
-![Screenshot - 1920 x 1080 ](/assets/screenshot.jpg?raw=true "Screenshot")
+![Screenshot - 1920 x 1080 ](/assets/home-desktop.png?raw=true "Screenshot")
+![Screenshot - 1920 x 1080 ](/assets/home-tablet.png?raw=true "Screenshot")
+![Screenshot - 1920 x 1080 ](/assets/home-phone.png?raw=true "Screenshot")
+---
+![Screenshot - 1920 x 1080 ](/assets/category-desktop.png?raw=true "Screenshot")
+![Screenshot - 1920 x 1080 ](/assets/category-tablet.png?raw=true "Screenshot")
+![Screenshot - 1920 x 1080 ](/assets/category-phone.png?raw=true "Screenshot")
+---
+![Screenshot - 1920 x 1080 ](/assets/product-desktop.png?raw=true "Screenshot")
+![Screenshot - 1920 x 1080 ](/assets/product-tablet.png?raw=true "Screenshot")
+![Screenshot - 1920 x 1080 ](/assets/product-phone.png?raw=true "Screenshot")
 
 ---
 
 ## Live Demo
 
-url of the demo
+https://raw.githack.com/AlfredoElizarraras/sneakers-shop/development/public/index.html
+
+---
+
+## Video Demo
+
+https://www.loom.com/share/25ea70a0c111481982df052b40886d8b
 
 ---
 
@@ -19,7 +35,8 @@ url of the demo
 
 - HTML5
 - CSS3
-- Node
+- Bootstrap 4
+- Node 
 
 ---
 
@@ -29,10 +46,6 @@ url of the demo
 - Web Browser
 - CLI
 - IDE
-
-### Dependencies
-
-If there are dependencies
 
 ### Install
 
@@ -64,8 +77,14 @@ Give a ⭐️ if you like this project!
 
 - [Microverse](https://microverse.org)
 - [Odin project](https://www.theodinproject.com/)
+- The owner of this cool idea of website is:
 - [Dima Oxigen](https://www.behance.net/gallery/80392909/AXEL-ARIGATO-Website)
-
+- I take Images from: 
+  - Photo by [Satria Aditya](https://unsplash.com/@satriaaditya04) on Unsplash
+  - Photo by [Paul Volkmer](https://unsplash.com/@laup) on Unsplash
+  - Photo by [Melvin Buezo](https://www.pexels.com/@melvin-buezo-1253763) from Pexels
+  - Photo by [Mstudio](https://www.pexels.com/@mstudio-360817) from Pexels
+  - Photo by [Mnz](https://www.pexels.com/@mnzoutfits) from Pexels
 ---
 
 ## 📝 License

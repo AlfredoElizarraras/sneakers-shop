@@ -1,15 +1,2102 @@
 /* #region base */
+body {
+  color: #313131;
+  background-color: #fff;
+  font-family: "Arimo", sans-serif;
+  min-width: 375px;
+  min-height: 500px;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+a:hover {
+  color: #b9b9b9;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  object-fit: cover;
+}
 
 /* #endregion base */
 
 /* #region layout */
 
+/* #region header */
+
+/* #endregion header */
+
+/* #region main */
+
+/* #region index */
+.main__bottom {
+  background-color: #f5f5f5;
+}
+
+/* #endregion index */
+
+/* #endregion main */
+
 /* #endregion layout */
 
 /* #region modules */
 
+/* #region flex */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.jc-start {
+  justify-content: start;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-end {
+  justify-content: end;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-around {
+  justify-content: space-around;
+}
+
+.ac-start {
+  align-content: flex-start;
+}
+
+.ac-center {
+  align-content: center;
+}
+
+.ac-end {
+  align-content: flex-end;
+}
+
+.ac-between {
+  align-content: space-between;
+}
+
+.ai-start {
+  align-items: flex-start;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-end {
+  align-items: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.order-1 {
+  order: 1;
+}
+
+/* #endregion flex */
+
+/* #region display */
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/* #endregion display */
+
+/* #region text */
+.text-size-12 {
+  font-size: 0.75rem;
+}
+
+.text-size-14 {
+  font-size: 0.875rem;
+}
+
+.text-size-18 {
+  font-size: 1.125rem;
+}
+
+.text-size-24 {
+  font-size: 1.5rem;
+}
+
+.text-size-40 {
+  font-size: 2.5rem;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-color-black {
+  color: #313131;
+}
+
+.text-color-white {
+  color: #fff;
+}
+
+.text-color-gray {
+  color: #b9b9b9;
+}
+
+.text-color-lightgray {
+  color: #f5f5f5;
+}
+
+/* This piece of code I founded here:
+https://www.geeksforgeeks.org/making-a-div-vertically-scrollable-using-css/
+*/
+.text-scroll {
+  overflow-x: hidden;
+  overflow-x: auto;
+  text-align: justify;
+}
+
+/* #endregion text */
+
+/* #region screen-reader */
+
+/* I take this class from:
+https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link
+It hiddes elements but allows screen readers to see it, so I can use articles instead of div, but as some articles didn't have visible header it's a bad practice to use articles without a h2-h6 tag (html validator) */
+.screen-reader {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* #endregion screen-reader */
+
+/* #region box model */
+
+/* #region padding */
+.no-padding {
+  padding: 0;
+}
+
+.p-025r {
+  padding: 0.25rem;
+}
+
+.pt-025r {
+  padding-top: 0.25rem;
+}
+
+.pr-025r {
+  padding-right: 0.25rem;
+}
+
+.pb-025r {
+  padding-bottom: 0.25rem;
+}
+
+.pl-025r {
+  padding-left: 0.25rem;
+}
+
+.p-050r {
+  padding: 0.5rem;
+}
+
+.pt-050r {
+  padding-top: 0.5rem;
+}
+
+.pr-050r {
+  padding-right: 0.5rem;
+}
+
+.pb-050r {
+  padding-bottom: 0.5rem;
+}
+
+.pl-050r {
+  padding-left: 0.5rem;
+}
+
+.p-075r {
+  padding: 0.75rem;
+}
+
+.pt-075r {
+  padding-top: 0.75rem;
+}
+
+.pr-075r {
+  padding-right: 0.75rem;
+}
+
+.pb-075r {
+  padding-bottom: 0.75rem;
+}
+
+.pl-075r {
+  padding-left: 0.75rem;
+}
+
+.p-1r {
+  padding: 1rem;
+}
+
+.pt-1r {
+  padding-top: 1rem;
+}
+
+.pr-1r {
+  padding-right: 1rem;
+}
+
+.pb-1r {
+  padding-bottom: 1rem;
+}
+
+.pl-1r {
+  padding-left: 1rem;
+}
+
+.p-2r {
+  padding: 2rem;
+}
+
+.pt-2r {
+  padding-top: 2rem;
+}
+
+.pr-2r {
+  padding-right: 2rem;
+}
+
+.pb-2r {
+  padding-bottom: 2rem;
+}
+
+.pl-2r {
+  padding-left: 2rem;
+}
+
+/* #endregion padding */
+
+/* #region margin */
+.no-margin {
+  margin: 0;
+}
+
+.m-025r {
+  margin: 0.25rem;
+}
+
+.mt-025r {
+  margin-top: 0.25rem;
+}
+
+.mr-025r {
+  margin-right: 0.25rem;
+}
+
+.mb-025r {
+  margin-bottom: 0.25rem;
+}
+
+.ml-025r {
+  margin-left: 0.25rem;
+}
+
+.m-050r {
+  margin: 0.5rem;
+}
+
+.mt-050r {
+  margin-top: 0.5rem;
+}
+
+.mr-050r {
+  margin-right: 0.5rem;
+}
+
+.mb-050r {
+  margin-bottom: 0.5rem;
+}
+
+.ml-050r {
+  margin-left: 0.5rem;
+}
+
+.m-075r {
+  margin: 0.75rem;
+}
+
+.mt-075r {
+  margin-top: 0.75rem;
+}
+
+.mr-075r {
+  margin-right: 0.75rem;
+}
+
+.mb-075r {
+  margin-bottom: 0.75rem;
+}
+
+.ml-075r {
+  margin-left: 0.75rem;
+}
+
+.m-1r {
+  margin: 1rem;
+}
+
+.mt-1r {
+  margin-top: 1rem;
+}
+
+.mr-1r {
+  margin-right: 1rem;
+}
+
+.mb-1r {
+  margin-bottom: 1rem;
+}
+
+.ml-1r {
+  margin-left: 1rem;
+}
+
+.m-2r {
+  padding: 2rem;
+}
+
+.mt-2r {
+  padding-top: 2rem;
+}
+
+.mr-2r {
+  padding-right: 2rem;
+}
+
+.mb-2r {
+  padding-bottom: 2rem;
+}
+
+.ml-2r {
+  padding-left: 2rem;
+}
+
+/* #endregion margin */
+
+/* #region borders */
+.border-1-white {
+  border: 0.06rem solid #fff;
+}
+
+.border-3-white {
+  border: 0.19rem solid #fff;
+}
+
+.border-top-3-white {
+  border-top: 0.19rem solid #fff;
+}
+
+.border-right-3-white {
+  border-right: 0.19rem solid #fff;
+}
+
+.border-bottom-3-white {
+  border-bottom: 0.19rem solid #fff;
+}
+
+.border-left-3-white {
+  border-left: 0.19rem solid #fff;
+}
+
+/* #endregion borders */
+
+/* #endregion box model */
+
+/* #region container size */
+.size-5 {
+  width: 5vw;
+  height: 5vh;
+}
+
+.width-5 {
+  width: 5vw;
+}
+
+.height-5 {
+  height: 5vh;
+}
+
+.size-9 {
+  width: 9vw;
+  height: 9vh;
+}
+
+.width-9 {
+  width: 9vw;
+}
+
+.height-9 {
+  height: 9vh;
+}
+
+.size-10 {
+  width: 10vw;
+  height: 10vh;
+}
+
+.width-10 {
+  width: 10vw;
+}
+
+.height-10 {
+  height: 10vh;
+}
+
+.size-12-5 {
+  width: 12.5vw;
+  height: 12.5vh;
+}
+
+.width-12-5 {
+  width: 12.5vw;
+}
+
+.height-12-5 {
+  height: 12.5vh;
+}
+
+.size-20 {
+  width: 20vw;
+  height: 20vh;
+}
+
+.width-20 {
+  width: 20vw;
+}
+
+.height-20 {
+  height: 20vh;
+}
+
+.size-22-5 {
+  width: 22.5vw;
+  height: 22.5vh;
+}
+
+.width-22-5 {
+  width: 22.5vw;
+}
+
+.height-22-5 {
+  height: 22.5vh;
+}
+
+.size-25 {
+  width: 25vw;
+  height: 25vh;
+}
+
+.width-25 {
+  width: 25vw;
+}
+
+.height-25 {
+  height: 25vh;
+}
+
+.size-30 {
+  width: 30vw;
+  height: 30vh;
+}
+
+.width-30 {
+  width: 30vw;
+}
+
+.height-30 {
+  height: 30vh;
+}
+
+.size-40 {
+  width: 40vw;
+  height: 40vh;
+}
+
+.width-40 {
+  width: 40vw;
+}
+
+.height-40 {
+  height: 40vh;
+}
+
+.size-48 {
+  width: 48vw;
+  height: 48vh;
+}
+
+.width-48 {
+  width: 48vw;
+}
+
+.height-48 {
+  height: 48vh;
+}
+
+.size-50 {
+  width: 50vw;
+  height: 50vh;
+}
+
+.width-50 {
+  width: 50vw;
+}
+
+.height-50 {
+  height: 50vh;
+}
+
+.size-60 {
+  width: 60vw;
+  height: 60vh;
+}
+
+.width-60 {
+  width: 60vw;
+}
+
+.height-60 {
+  height: 60vh;
+}
+
+.size-70 {
+  width: 70vw;
+  height: 70vh;
+}
+
+.width-70 {
+  width: 70vw;
+}
+
+.height-70 {
+  height: 70vh;
+}
+
+.size-78 {
+  width: 78vw;
+  height: 78vh;
+}
+
+.width-78 {
+  width: 78vw;
+}
+
+.height-78 {
+  height: 78vh;
+}
+
+.size-80 {
+  width: 80vw;
+  height: 80vh;
+}
+
+.width-80 {
+  width: 80vw;
+}
+
+.height-80 {
+  height: 80vh;
+}
+
+.size-90 {
+  width: 90vw;
+  height: 90vh;
+}
+
+.width-90 {
+  width: 90vw;
+}
+
+.height-90 {
+  height: 90vh;
+}
+
+.size-100 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.width-100 {
+  width: 100vw;
+}
+
+.height-100 {
+  height: 100vh;
+}
+
+/* #endregion container size */
+
+/* #region custome components */
+.article {
+  background-color: #f5f5f5;
+}
+
+.article__info {
+  font-size: 0.985rem;
+  font-weight: bold;
+}
+
+.article__info--small {
+  font-size: small;
+}
+
+.article__summary {
+  font-size: 0.775rem;
+  color: #b9b9b9;
+}
+
+/* #endregion custome components */
+
 /* #endregion modules */
 
 /* #region media queries */
+@media only screen and (min-device-width: 768px) {
+  /* #region base */
+
+  /* #endregion base */
+
+  /* #region header */
+
+  /* #region main */
+  .main__bottom {
+    bottom: 0;
+    right: 0;
+  }
+
+  /* #endregion main */
+
+  /* #endregion header */
+
+  /* #region modules */
+
+  /* #region flex */
+  .md-flex {
+    display: flex;
+  }
+
+  .md-flex-column {
+    flex-direction: column;
+  }
+
+  .md-flex-row {
+    flex-direction: row;
+  }
+
+  .md-jc-start {
+    justify-content: start;
+  }
+
+  .md-jc-center {
+    justify-content: center;
+  }
+
+  .md-jc-end {
+    justify-content: end;
+  }
+
+  .md-jc-between {
+    justify-content: space-between;
+  }
+
+  .md-jc-around {
+    justify-content: space-around;
+  }
+
+  .md-ac-start {
+    align-content: flex-start;
+  }
+
+  .md-ac-center {
+    align-content: center;
+  }
+
+  .md-ac-end {
+    align-content: flex-end;
+  }
+
+  .md-ac-between {
+    align-content: space-between;
+  }
+
+  .md-ai-start {
+    align-items: flex-start;
+  }
+
+  .md-ai-center {
+    align-items: center;
+  }
+
+  .md-ai-end {
+    align-items: flex-end;
+  }
+
+  .md-flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .md-order-1 {
+    order: 1;
+  }
+
+  /* #endregion flex */
+
+  /* #region display */
+  .md-none {
+    display: none;
+  }
+
+  .md-block {
+    display: block;
+  }
+
+  .md-relative {
+    position: relative;
+  }
+
+  .md-absolute {
+    position: absolute;
+  }
+
+  /* #endregion display */
+
+  /* #region text */
+  .md-text-size-12 {
+    font-size: 0.75rem;
+  }
+
+  .md-text-size-14 {
+    font-size: 0.875rem;
+  }
+
+  .md-text-size-18 {
+    font-size: 1.125rem;
+  }
+
+  .md-text-size-24 {
+    font-size: 1.5rem;
+  }
+
+  .md-text-size-40 {
+    font-size: 2.5rem;
+  }
+
+  .md-text-uppercase {
+    text-transform: uppercase;
+  }
+
+  .md-text-capitalize {
+    text-transform: capitalize;
+  }
+
+  .md-text-bold {
+    font-weight: bold;
+  }
+
+  .md-text-color-black {
+    color: #313131;
+  }
+
+  .md-text-color-white {
+    color: #fff;
+  }
+
+  .md-text-color-gray {
+    color: #b9b9b9;
+  }
+
+  .md-text-color-lightgray {
+    color: #f5f5f5;
+  }
+
+  /* This piece of code I founded here:
+https://www.geeksforgeeks.org/making-a-div-vertically-scrollable-using-css/
+*/
+  .md-text-scroll {
+    overflow-x: hidden;
+    overflow-x: auto;
+    text-align: justify;
+  }
+
+  /* #endregion text */
+
+  /* #region screen-reader */
+
+  /* I take this class from:
+https://gomakethings.md-com/hidden-content-for-better-a11y/#hiding-the-link
+It hiddes elements but allows screen readers to see it, so I can use articles instead of div, but as some articles didn't have visible header it's a bad practice to use articles without a h2-h6 tag (html validator) */
+  .md-screen-reader {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  /* #endregion screen-reader */
+
+  /* #region box model */
+
+  /* #region padding */
+  .md-no-padding {
+    padding: 0;
+  }
+
+  .md-p-025r {
+    padding: 0.25rem;
+  }
+
+  .md-pt-025r {
+    padding-top: 0.25rem;
+  }
+
+  .md-pr-025r {
+    padding-right: 0.25rem;
+  }
+
+  .md-pb-025r {
+    padding-bottom: 0.25rem;
+  }
+
+  .md-pl-025r {
+    padding-left: 0.25rem;
+  }
+
+  .md-p-050r {
+    padding: 0.5rem;
+  }
+
+  .md-pt-050r {
+    padding-top: 0.5rem;
+  }
+
+  .md-pr-050r {
+    padding-right: 0.5rem;
+  }
+
+  .md-pb-050r {
+    padding-bottom: 0.5rem;
+  }
+
+  .md-pl-050r {
+    padding-left: 0.5rem;
+  }
+
+  .md-p-075r {
+    padding: 0.75rem;
+  }
+
+  .md-pt-075r {
+    padding-top: 0.75rem;
+  }
+
+  .md-pr-075r {
+    padding-right: 0.75rem;
+  }
+
+  .md-pb-075r {
+    padding-bottom: 0.75rem;
+  }
+
+  .md-pl-075r {
+    padding-left: 0.75rem;
+  }
+
+  .md-p-1r {
+    padding: 1rem;
+  }
+
+  .md-pt-1r {
+    padding-top: 1rem;
+  }
+
+  .md-pr-1r {
+    padding-right: 1rem;
+  }
+
+  .md-pb-1r {
+    padding-bottom: 1rem;
+  }
+
+  .md-pl-1r {
+    padding-left: 1rem;
+  }
+
+  .md-p-2r {
+    padding: 2rem;
+  }
+
+  .md-pt-2r {
+    padding-top: 2rem;
+  }
+
+  .md-pr-2r {
+    padding-right: 2rem;
+  }
+
+  .md-pb-2r {
+    padding-bottom: 2rem;
+  }
+
+  .md-pl-2r {
+    padding-left: 2rem;
+  }
+
+  /* #endregion padding */
+
+  /* #region margin */
+  .md-no-margin {
+    margin: 0;
+  }
+
+  .md-m-025r {
+    margin: 0.25rem;
+  }
+
+  .md-mt-025r {
+    margin-top: 0.25rem;
+  }
+
+  .md-mr-025r {
+    margin-right: 0.25rem;
+  }
+
+  .md-mb-025r {
+    margin-bottom: 0.25rem;
+  }
+
+  .md-ml-025r {
+    margin-left: 0.25rem;
+  }
+
+  .md-m-050r {
+    margin: 0.5rem;
+  }
+
+  .md-mt-050r {
+    margin-top: 0.5rem;
+  }
+
+  .md-mr-050r {
+    margin-right: 0.5rem;
+  }
+
+  .md-mb-050r {
+    margin-bottom: 0.5rem;
+  }
+
+  .md-ml-050r {
+    margin-left: 0.5rem;
+  }
+
+  .md-m-075r {
+    margin: 0.75rem;
+  }
+
+  .md-mt-075r {
+    margin-top: 0.75rem;
+  }
+
+  .md-mr-075r {
+    margin-right: 0.75rem;
+  }
+
+  .md-mb-075r {
+    margin-bottom: 0.75rem;
+  }
+
+  .md-ml-075r {
+    margin-left: 0.75rem;
+  }
+
+  .md-m-1r {
+    margin: 1rem;
+  }
+
+  .md-mt-1r {
+    margin-top: 1rem;
+  }
+
+  .md-mr-1r {
+    margin-right: 1rem;
+  }
+
+  .md-mb-1r {
+    margin-bottom: 1rem;
+  }
+
+  .md-ml-1r {
+    margin-left: 1rem;
+  }
+
+  .md-m-2r {
+    padding: 2rem;
+  }
+
+  .md-mt-2r {
+    padding-top: 2rem;
+  }
+
+  .md-mr-2r {
+    padding-right: 2rem;
+  }
+
+  .md-mb-2r {
+    padding-bottom: 2rem;
+  }
+
+  .md-ml-2r {
+    padding-left: 2rem;
+  }
+
+  /* #endregion margin */
+
+  /* #region borders */
+  .md-border-1-white {
+    border: 0.06rem solid #fff;
+  }
+
+  .md-border-3-white {
+    border: 0.19rem solid #fff;
+  }
+
+  .md-border-top-3-white {
+    border-top: 0.19rem solid #fff;
+  }
+
+  .md-border-right-3-white {
+    border-right: 0.19rem solid #fff;
+  }
+
+  .md-border-bottom-3-white {
+    border-bottom: 0.19rem solid #fff;
+  }
+
+  .md-border-left-3-white {
+    border-left: 0.19rem solid #fff;
+  }
+
+  /* #endregion borders */
+
+  /* #endregion box model */
+
+  /* #region container size */
+  .md-size-5 {
+    width: 5vw;
+    height: 5vh;
+  }
+
+  .md-width-5 {
+    width: 5vw;
+  }
+
+  .md-height-5 {
+    height: 5vh;
+  }
+
+  .md-size-9 {
+    width: 9vw;
+    height: 9vh;
+  }
+
+  .md-width-9 {
+    width: 9vw;
+  }
+
+  .md-height-9 {
+    height: 9vh;
+  }
+
+  .md-size-10 {
+    width: 10vw;
+    height: 10vh;
+  }
+
+  .md-width-10 {
+    width: 10vw;
+  }
+
+  .md-height-10 {
+    height: 10vh;
+  }
+
+  .md-size-12-5 {
+    width: 12.5vw;
+    height: 12.5vh;
+  }
+
+  .md-width-12-5 {
+    width: 12.5vw;
+  }
+
+  .md-height-12-5 {
+    height: 12.5vh;
+  }
+
+  .md-size-20 {
+    width: 20vw;
+    height: 20vh;
+  }
+
+  .md-width-20 {
+    width: 20vw;
+  }
+
+  .md-height-20 {
+    height: 20vh;
+  }
+
+  .md-size-22-5 {
+    width: 22.5vw;
+    height: 22.5vh;
+  }
+
+  .md-width-22-5 {
+    width: 22.5vw;
+  }
+
+  .md-height-22-5 {
+    height: 22.5vh;
+  }
+
+  .md-size-25 {
+    width: 25vw;
+    height: 25vh;
+  }
+
+  .md-width-25 {
+    width: 25vw;
+  }
+
+  .md-height-25 {
+    height: 25vh;
+  }
+
+  .md-size-30 {
+    width: 30vw;
+    height: 30vh;
+  }
+
+  .md-width-30 {
+    width: 30vw;
+  }
+
+  .md-height-30 {
+    height: 30vh;
+  }
+
+  .md-size-40 {
+    width: 40vw;
+    height: 40vh;
+  }
+
+  .md-width-40 {
+    width: 40vw;
+  }
+
+  .md-height-40 {
+    height: 40vh;
+  }
+
+  .md-size-48 {
+    width: 48vw;
+    height: 48vh;
+  }
+
+  .md-width-48 {
+    width: 48vw;
+  }
+
+  .md-height-48 {
+    height: 48vh;
+  }
+
+  .md-size-50 {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  .md-width-50 {
+    width: 50vw;
+  }
+
+  .md-height-50 {
+    height: 50vh;
+  }
+
+  .md-size-60 {
+    width: 60vw;
+    height: 60vh;
+  }
+
+  .md-width-60 {
+    width: 60vw;
+  }
+
+  .md-height-60 {
+    height: 60vh;
+  }
+
+  .md-size-70 {
+    width: 70vw;
+    height: 70vh;
+  }
+
+  .md-width-70 {
+    width: 70vw;
+  }
+
+  .md-height-70 {
+    height: 70vh;
+  }
+
+  .md-size-78 {
+    width: 78vw;
+    height: 78vh;
+  }
+
+  .md-width-78 {
+    width: 78vw;
+  }
+
+  .md-height-78 {
+    height: 78vh;
+  }
+
+  .md-size-80 {
+    width: 80vw;
+    height: 80vh;
+  }
+
+  .md-width-80 {
+    width: 80vw;
+  }
+
+  .md-height-80 {
+    height: 80vh;
+  }
+
+  .md-size-90 {
+    width: 90vw;
+    height: 90vh;
+  }
+
+  .md-width-90 {
+    width: 90vw;
+  }
+
+  .md-height-90 {
+    height: 90vh;
+  }
+
+  .md-size-100 {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .md-width-100 {
+    width: 100vw;
+  }
+
+  .md-height-100 {
+    height: 100vh;
+  }
+
+  /* #endregion container size */
+
+  /* #endregion modules */
+}
+
+@media only screen and (min-device-width: 1024px) {
+  /* #region base */
+
+  /* #endregion base */
+
+  /* #region layout */
+
+  /* #region header */
+  header {
+    height: 100vh;
+    width: 20vw;
+  }
+
+  /* #endregion header */
+
+  /* #region main */
+
+  /* #region index */
+
+  /* #endregion index */
+
+  /* #endregion main */
+
+  /* #region footer */
+  .footer__list {
+    flex-grow: 1;
+  }
+
+  .nav__circle-item {
+    display: block;
+    color: #313131;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px 0 10px 10px;
+  }
+
+  .nav__cart {
+    background-color: gray;
+  }
+
+  .footer__bottom {
+    flex-grow: 1;
+  }
+
+  .footer__text {
+    transform: rotate(90deg);
+    transform-origin: right;
+  }
+
+  /* #endregion footer */
+
+  /* #endregion layout */
+
+  /* #region modules */
+
+  /* #region flex */
+  .dt-flex {
+    display: flex;
+  }
+
+  .dt-flex-column {
+    flex-direction: column;
+  }
+
+  .dt-flex-row {
+    flex-direction: row;
+  }
+
+  .dt-jc-start {
+    justify-content: start;
+  }
+
+  .dt-jc-center {
+    justify-content: center;
+  }
+
+  .dt-jc-end {
+    justify-content: end;
+  }
+
+  .dt-jc-between {
+    justify-content: space-between;
+  }
+
+  .dt-jc-around {
+    justify-content: space-around;
+  }
+
+  .dt-ac-start {
+    align-content: flex-start;
+  }
+
+  .dt-ac-center {
+    align-content: center;
+  }
+
+  .dt-ac-end {
+    align-content: flex-end;
+  }
+
+  .dt-ac-between {
+    align-content: space-between;
+  }
+
+  .dt-ai-start {
+    align-items: flex-start;
+  }
+
+  .dt-ai-center {
+    align-items: center;
+  }
+
+  .dt-ai-end {
+    align-items: flex-end;
+  }
+
+  .dt-flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .dt-flex-0 {
+    flex: 0;
+  }
+
+  .dt-order-1 {
+    order: 1;
+  }
+
+  /* #endregion flex */
+
+  /* #region display */
+  .dt-none {
+    display: none;
+  }
+
+  .dt-block {
+    display: block;
+  }
+
+  .dt-relative {
+    position: relative;
+  }
+
+  .dt-absolute {
+    position: absolute;
+  }
+
+  /* #endregion display */
+
+  /* #region text */
+  .dt-text-size-12 {
+    font-size: 0.75rem;
+  }
+
+  .dt-text-size-14 {
+    font-size: 0.875rem;
+  }
+
+  .dt-text-size-18 {
+    font-size: 1.125rem;
+  }
+
+  .dt-text-size-24 {
+    font-size: 1.5rem;
+  }
+
+  .dt-text-size-40 {
+    font-size: 2.5rem;
+  }
+
+  .dt-text-uppercase {
+    text-transform: uppercase;
+  }
+
+  .dt-text-capitalize {
+    text-transform: capitalize;
+  }
+
+  .dt-text-bold {
+    font-weight: bold;
+  }
+
+  .dt-text-color-black {
+    color: #313131;
+  }
+
+  .dt-text-color-white {
+    color: #fff;
+  }
+
+  .dt-text-color-gray {
+    color: #b9b9b9;
+  }
+
+  .dt-text-color-lightgray {
+    color: #f5f5f5;
+  }
+
+  /* This piece of code I founded here:
+https://www.geeksforgeeks.org/making-a-div-vertically-scrollable-using-css/
+*/
+  .dt-text-scroll {
+    overflow-x: hidden;
+    overflow-x: auto;
+    text-align: justify;
+  }
+
+  /* #endregion text */
+
+  /* #region screen-reader */
+
+  /* I take this class from:
+https://gomakethings.dt-com/hidden-content-for-better-a11y/#hiding-the-link
+It hiddes elements but allows screen readers to see it, so I can use articles instead of div, but as some articles didn't have visible header it's a bad practice to use articles without a h2-h6 tag (html validator) */
+  .dt-screen-reader {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  /* #endregion screen-reader */
+
+  /* #region box model */
+
+  /* #region padding */
+  .dt-no-padding {
+    padding: 0;
+  }
+
+  .dt-p-025r {
+    padding: 0.25rem;
+  }
+
+  .dt-pt-025r {
+    padding-top: 0.25rem;
+  }
+
+  .dt-pr-025r {
+    padding-right: 0.25rem;
+  }
+
+  .dt-pb-025r {
+    padding-bottom: 0.25rem;
+  }
+
+  .dt-pl-025r {
+    padding-left: 0.25rem;
+  }
+
+  .dt-p-050r {
+    padding: 0.5rem;
+  }
+
+  .dt-pt-050r {
+    padding-top: 0.5rem;
+  }
+
+  .dt-pr-050r {
+    padding-right: 0.5rem;
+  }
+
+  .dt-pb-050r {
+    padding-bottom: 0.5rem;
+  }
+
+  .dt-pl-050r {
+    padding-left: 0.5rem;
+  }
+
+  .dt-p-075r {
+    padding: 0.75rem;
+  }
+
+  .dt-pt-075r {
+    padding-top: 0.75rem;
+  }
+
+  .dt-pr-075r {
+    padding-right: 0.75rem;
+  }
+
+  .dt-pb-075r {
+    padding-bottom: 0.75rem;
+  }
+
+  .dt-pl-075r {
+    padding-left: 0.75rem;
+  }
+
+  .dt-p-1r {
+    padding: 1rem;
+  }
+
+  .dt-pt-1r {
+    padding-top: 1rem;
+  }
+
+  .dt-pr-1r {
+    padding-right: 1rem;
+  }
+
+  .dt-pb-1r {
+    padding-bottom: 1rem;
+  }
+
+  .dt-pl-1r {
+    padding-left: 1rem;
+  }
+
+  .dt-p-2r {
+    padding: 2rem;
+  }
+
+  .dt-pt-2r {
+    padding-top: 2rem;
+  }
+
+  .dt-pr-2r {
+    padding-right: 2rem;
+  }
+
+  .dt-pb-2r {
+    padding-bottom: 2rem;
+  }
+
+  .dt-pl-2r {
+    padding-left: 2rem;
+  }
+
+  /* #endregion padding */
+
+  /* #region margin */
+  .dt-no-margin {
+    margin: 0;
+  }
+
+  .dt-m-025r {
+    margin: 0.25rem;
+  }
+
+  .dt-mt-025r {
+    margin-top: 0.25rem;
+  }
+
+  .dt-mr-025r {
+    margin-right: 0.25rem;
+  }
+
+  .dt-mb-025r {
+    margin-bottom: 0.25rem;
+  }
+
+  .dt-ml-025r {
+    margin-left: 0.25rem;
+  }
+
+  .dt-m-050r {
+    margin: 0.5rem;
+  }
+
+  .dt-mt-050r {
+    margin-top: 0.5rem;
+  }
+
+  .dt-mr-050r {
+    margin-right: 0.5rem;
+  }
+
+  .dt-mb-050r {
+    margin-bottom: 0.5rem;
+  }
+
+  .dt-ml-050r {
+    margin-left: 0.5rem;
+  }
+
+  .dt-m-075r {
+    margin: 0.75rem;
+  }
+
+  .dt-mt-075r {
+    margin-top: 0.75rem;
+  }
+
+  .dt-mr-075r {
+    margin-right: 0.75rem;
+  }
+
+  .dt-mb-075r {
+    margin-bottom: 0.75rem;
+  }
+
+  .dt-ml-075r {
+    margin-left: 0.75rem;
+  }
+
+  .dt-m-1r {
+    margin: 1rem;
+  }
+
+  .dt-mt-1r {
+    margin-top: 1rem;
+  }
+
+  .dt-mr-1r {
+    margin-right: 1rem;
+  }
+
+  .dt-mb-1r {
+    margin-bottom: 1rem;
+  }
+
+  .dt-ml-1r {
+    margin-left: 1rem;
+  }
+
+  .dt-m-2r {
+    padding: 2rem;
+  }
+
+  .dt-mt-2r {
+    padding-top: 2rem;
+  }
+
+  .dt-mr-2r {
+    padding-right: 2rem;
+  }
+
+  .dt-mb-2r {
+    padding-bottom: 2rem;
+  }
+
+  .dt-ml-2r {
+    padding-left: 2rem;
+  }
+
+  /* #endregion margin */
+
+  /* #region borders */
+  .dt-border-1-white {
+    border: 0.06rem solid #fff;
+  }
+
+  .dt-border-3-white {
+    border: 0.19rem solid #fff;
+  }
+
+  .dt-border-top-3-white {
+    border-top: 0.19rem solid #fff;
+  }
+
+  .dt-border-right-3-white {
+    border-right: 0.19rem solid #fff;
+  }
+
+  .dt-border-bottom-3-white {
+    border-bottom: 0.19rem solid #fff;
+  }
+
+  .dt-border-left-3-white {
+    border-left: 0.19rem solid #fff;
+  }
+
+  /* #endregion borders */
+
+  /* #endregion box model */
+
+  /* #region container size */
+  .dt-size-5 {
+    width: 5vw;
+    height: 5vh;
+  }
+
+  .dt-width-5 {
+    width: 5vw;
+  }
+
+  .dt-height-5 {
+    height: 5vh;
+  }
+
+  .dt-size-9 {
+    width: 9vw;
+    height: 9vh;
+  }
+
+  .dt-width-9 {
+    width: 9vw;
+  }
+
+  .dt-height-9 {
+    height: 9vh;
+  }
+
+  .dt-size-10 {
+    width: 10vw;
+    height: 10vh;
+  }
+
+  .dt-width-10 {
+    width: 10vw;
+  }
+
+  .dt-height-10 {
+    height: 10vh;
+  }
+
+  .dt-size-12-5 {
+    width: 12.5vw;
+    height: 12.5vh;
+  }
+
+  .dt-width-12-5 {
+    width: 12.5vw;
+  }
+
+  .dt-height-12-5 {
+    height: 12.5vh;
+  }
+
+  .dt-size-20 {
+    width: 20vw;
+    height: 20vh;
+  }
+
+  .dt-width-20 {
+    width: 20vw;
+  }
+
+  .dt-height-20 {
+    height: 20vh;
+  }
+
+  .dt-size-22-5 {
+    width: 22.5vw;
+    height: 22.5vh;
+  }
+
+  .dt-width-22-5 {
+    width: 22.5vw;
+  }
+
+  .dt-height-22-5 {
+    height: 22.5vh;
+  }
+
+  .dt-size-25 {
+    width: 25vw;
+    height: 25vh;
+  }
+
+  .dt-width-25 {
+    width: 25vw;
+  }
+
+  .dt-height-25 {
+    height: 25vh;
+  }
+
+  .dt-size-30 {
+    width: 30vw;
+    height: 30vh;
+  }
+
+  .dt-width-30 {
+    width: 30vw;
+  }
+
+  .dt-height-30 {
+    height: 30vh;
+  }
+
+  .dt-size-40 {
+    width: 40vw;
+    height: 40vh;
+  }
+
+  .dt-width-40 {
+    width: 40vw;
+  }
+
+  .dt-height-40 {
+    height: 40vh;
+  }
+
+  .dt-size-48 {
+    width: 48vw;
+    height: 48vh;
+  }
+
+  .dt-width-48 {
+    width: 48vw;
+  }
+
+  .dt-height-48 {
+    height: 48vh;
+  }
+
+  .dt-size-50 {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  .dt-width-50 {
+    width: 50vw;
+  }
+
+  .dt-height-50 {
+    height: 50vh;
+  }
+
+  .dt-size-60 {
+    width: 60vw;
+    height: 60vh;
+  }
+
+  .dt-width-60 {
+    width: 60vw;
+  }
+
+  .dt-height-60 {
+    height: 60vh;
+  }
+
+  .dt-size-70 {
+    width: 70vw;
+    height: 70vh;
+  }
+
+  .dt-width-70 {
+    width: 70vw;
+  }
+
+  .dt-height-70 {
+    height: 70vh;
+  }
+
+  .dt-size-78 {
+    width: 78vw;
+    height: 78vh;
+  }
+
+  .dt-width-78 {
+    width: 78vw;
+  }
+
+  .dt-height-78 {
+    height: 78vh;
+  }
+
+  .dt-size-80 {
+    width: 80vw;
+    height: 80vh;
+  }
+
+  .dt-width-80 {
+    width: 80vw;
+  }
+
+  .dt-height-80 {
+    height: 80vh;
+  }
+
+  .dt-size-90 {
+    width: 90vw;
+    height: 90vh;
+  }
+
+  .dt-width-90 {
+    width: 90vw;
+  }
+
+  .dt-height-90 {
+    height: 90vh;
+  }
+
+  .dt-size-98 {
+    width: 98vw;
+    height: 98vh;
+  }
+
+  .dt-width-98 {
+    width: 98vw;
+  }
+
+  .dt-height-98 {
+    height: 98vh;
+  }
+
+  .dt-size-99 {
+    width: 99vw;
+    height: 99vh;
+  }
+
+  .dt-width-99 {
+    width: 99vw;
+  }
+
+  .dt-height-99 {
+    height: 99vh;
+  }
+
+  .dt-size-100 {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .dt-width-100 {
+    width: 100vw;
+  }
+
+  .dt-height-100 {
+    height: 100vh;
+  }
+
+  /* #endregion container size */
+
+  /* #endregion modules */
+}
 
 /* #endregion media queries */
