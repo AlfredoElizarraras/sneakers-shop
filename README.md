@@ -59,7 +59,7 @@ https://www.loom.com/share/25ea70a0c111481982df052b40886d8b
 
 - Github: [@AlfredoElizarraras](https://github.com/AlfredoElizarraras)
 - Twitter: [@OscarAlfredoGm4](https://twitter.com/OscarAlfredoGm4)
-- Linkedin: [@OscarAlfredoGómezElizarrarás](https://mx.linkedin.com/in/oscar-alfredo-gomez-elizarraras-999589186)
+- Linkedin: [@OscarAlfredoGómezElizarrarás](https://mx.linkedin.com/in/oscar-alfredo-gomez-elizarraras)
 
 ---
 
